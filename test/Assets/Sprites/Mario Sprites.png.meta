@@ -1,0 +1,5119 @@
+fileFormatVersion: 2
+guid: 5718780dc8a986a4291d547dd68636d6
+timeCreated: 1520437924
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Mario Sprites_0
+    21300002: Mario Sprites_1
+    21300004: Mario Sprites_2
+    21300006: Mario Sprites_3
+    21300008: Mario Sprites_4
+    21300010: Mario Sprites_5
+    21300012: Mario Sprites_6
+    21300014: Mario Sprites_7
+    21300016: Mario Sprites_8
+    21300018: Mario Sprites_9
+    21300020: Mario Sprites_10
+    21300022: Mario Sprites_11
+    21300024: Mario Sprites_12
+    21300026: Mario Sprites_13
+    21300028: Mario Sprites_14
+    21300030: Mario Sprites_15
+    21300032: Mario Sprites_16
+    21300034: Mario Sprites_17
+    21300036: Mario Sprites_18
+    21300038: Mario Sprites_19
+    21300040: Mario Sprites_20
+    21300042: Mario Sprites_21
+    21300044: Mario Sprites_22
+    21300046: Mario Sprites_23
+    21300048: Mario Sprites_24
+    21300050: Mario Sprites_25
+    21300052: Mario Sprites_26
+    21300054: Mario Sprites_27
+    21300056: Mario Sprites_28
+    21300058: Mario Sprites_29
+    21300060: Mario Sprites_30
+    21300062: Mario Sprites_31
+    21300064: Mario Sprites_32
+    21300066: Mario Sprites_33
+    21300068: Mario Sprites_34
+    21300070: Mario Sprites_35
+    21300072: Mario Sprites_36
+    21300074: Mario Sprites_37
+    21300076: Mario Sprites_38
+    21300078: Mario Sprites_39
+    21300080: Mario Sprites_40
+    21300082: Mario Sprites_41
+    21300084: Mario Sprites_42
+    21300086: Mario Sprites_43
+    21300088: Mario Sprites_44
+    21300090: Mario Sprites_45
+    21300092: Mario Sprites_46
+    21300094: Mario Sprites_47
+    21300096: Idle_Big
+    21300098: Walk1_Big
+    21300100: Walk2_Big
+    21300102: Idle_Holditem_Big
+    21300104: Walk1_Holditem_Big
+    21300106: Walk2_Holditem_Big
+    21300108: Mario Sprites_54
+    21300110: Mario Sprites_55
+    21300112: Jump_Big
+    21300114: Fall_Big
+    21300116: Halt_Big
+    21300118: Duck_Big
+    21300120: Duck_Holditem_Big
+    21300122: Mario Sprites_61
+    21300124: FaceForward_Big
+    21300126: FaceBackward_Big
+    21300128: Mario Sprites_64
+    21300130: Run1_Big
+    21300132: Run2_Big
+    21300134: Run3_Big
+    21300136: Jump_Run_Big
+    21300138: LookUp_Big
+    21300140: Mario Sprites_70
+    21300142: Mario Sprites_71
+    21300144: Mario Sprites_72
+    21300146: Mario Sprites_73
+    21300148: Mario Sprites_74
+    21300150: Mario Sprites_75
+    21300152: Mario Sprites_76
+    21300154: Mario Sprites_77
+    21300156: Mario Sprites_78
+    21300158: Mario Sprites_79
+    21300160: Mario Sprites_80
+    21300162: Mario Sprites_81
+    21300164: Mario Sprites_82
+    21300166: Mario Sprites_83
+    21300168: Mario Sprites_84
+    21300170: Mario Sprites_85
+    21300172: Mario Sprites_86
+    21300174: Mario Sprites_87
+    21300176: Mario Sprites_88
+    21300178: Mario Sprites_89
+    21300180: Mario Sprites_90
+    21300182: Mario Sprites_91
+    21300184: Mario Sprites_92
+    21300186: Mario Sprites_93
+    21300188: Mario Sprites_94
+    21300190: Mario Sprites_95
+    21300192: Mario Sprites_96
+    21300194: Mario Sprites_97
+    21300196: Mario Sprites_98
+    21300198: Mario Sprites_99
+    21300200: Mario Sprites_100
+    21300202: Mario Sprites_101
+    21300204: Mario Sprites_102
+    21300206: Mario Sprites_103
+    21300208: Mario Sprites_104
+    21300210: Mario Sprites_105
+    21300212: Mario Sprites_106
+    21300214: Mario Sprites_107
+    21300216: Mario Sprites_108
+    21300218: Mario Sprites_109
+    21300220: Mario Sprites_110
+    21300222: Mario Sprites_111
+    21300224: Mario Sprites_112
+    21300226: Mario Sprites_113
+    21300228: Mario Sprites_114
+    21300230: Mario Sprites_115
+    21300232: Mario Sprites_116
+    21300234: Mario Sprites_117
+    21300236: Mario Sprites_118
+    21300238: Mario Sprites_119
+    21300240: Mario Sprites_120
+    21300242: Mario Sprites_121
+    21300244: Mario Sprites_122
+    21300246: Mario Sprites_123
+    21300248: Mario Sprites_124
+    21300250: Mario Sprites_125
+    21300252: Mario Sprites_126
+    21300254: Mario Sprites_127
+    21300256: Mario Sprites_128
+    21300258: Mario Sprites_129
+    21300260: Mario Sprites_130
+    21300262: Mario Sprites_131
+    21300264: Mario Sprites_132
+    21300266: Mario Sprites_133
+    21300268: Mario Sprites_134
+    21300270: Mario Sprites_135
+    21300272: Mario Sprites_136
+    21300274: Mario Sprites_137
+    21300276: Mario Sprites_138
+    21300278: Mario Sprites_139
+    21300280: Mario Sprites_140
+    21300282: Mario Sprites_141
+    21300284: Mario Sprites_142
+    21300286: Mario Sprites_143
+    21300288: Mario Sprites_144
+    21300290: Mario Sprites_145
+    21300292: Mario Sprites_146
+    21300294: Mario Sprites_147
+    21300296: Mario Sprites_148
+    21300298: Mario Sprites_149
+    21300300: Mario Sprites_150
+    21300302: Mario Sprites_151
+    21300304: Mario Sprites_152
+    21300306: Mario Sprites_153
+    21300308: Mario Sprites_154
+    21300310: Mario Sprites_155
+    21300312: Mario Sprites_156
+    21300314: Mario Sprites_157
+    21300316: Mario Sprites_158
+    21300318: Mario Sprites_159
+    21300320: Mario Sprites_160
+    21300322: Mario Sprites_161
+    21300324: Mario Sprites_162
+    21300326: Mario Sprites_163
+    21300328: Mario Sprites_164
+    21300330: Mario Sprites_165
+    21300332: Mario Sprites_166
+    21300334: Mario Sprites_167
+    21300336: Mario Sprites_168
+    21300338: Mario Sprites_169
+    21300340: Mario Sprites_170
+    21300342: Mario Sprites_171
+    21300344: Mario Sprites_172
+    21300346: Mario Sprites_173
+    21300348: Mario Sprites_174
+    21300350: Mario Sprites_175
+    21300352: Mario Sprites_176
+    21300354: Mario Sprites_177
+    21300356: Mario Sprites_178
+    21300358: Mario Sprites_179
+    21300360: Mario Sprites_180
+    21300362: Mario Sprites_181
+    21300364: Mario Sprites_182
+    21300366: Mario Sprites_183
+    21300368: Mario Sprites_184
+    21300370: Mario Sprites_185
+    21300372: Mario Sprites_186
+    21300374: Mario Sprites_187
+    21300376: Mario Sprites_188
+    21300378: Mario Sprites_189
+    21300380: Mario Sprites_190
+    21300382: Mario Sprites_191
+    21300384: Mario Sprites_192
+    21300386: Mario Sprites_193
+    21300388: Mario Sprites_194
+    21300390: Mario Sprites_195
+    21300392: Mario Sprites_196
+    21300394: Mario Sprites_197
+    21300396: Mario Sprites_198
+    21300398: Mario Sprites_199
+    21300400: Mario Sprites_200
+    21300402: Mario Sprites_201
+    21300404: Mario Sprites_202
+    21300406: Mario Sprites_203
+    21300408: Mario Sprites_204
+    21300410: Mario Sprites_205
+    21300412: Mario Sprites_206
+    21300414: Mario Sprites_207
+    21300416: Mario Sprites_208
+    21300418: Mario Sprites_209
+    21300420: Mario Sprites_210
+    21300422: Mario Sprites_211
+    21300424: Mario Sprites_212
+    21300426: Mario Sprites_213
+    21300428: Mario Sprites_214
+    21300430: Mario Sprites_215
+    21300432: Mario Sprites_216
+    21300434: Mario Sprites_217
+    21300436: Mario Sprites_218
+    21300438: Mario Sprites_219
+    21300440: Mario Sprites_220
+    21300442: Mario Sprites_221
+    21300444: Mario Sprites_222
+    21300446: Mario Sprites_223
+    21300448: Mario Sprites_224
+    21300450: Mario Sprites_225
+    21300452: Mario Sprites_226
+    21300454: Mario Sprites_227
+    21300456: Mario Sprites_228
+    21300458: Mario Sprites_229
+    21300460: Mario Sprites_230
+    21300462: Mario Sprites_231
+    21300464: Mario Sprites_232
+    21300466: Mario Sprites_233
+    21300468: Mario Sprites_234
+    21300470: Mario Sprites_235
+    21300472: Mario Sprites_236
+    21300474: Mario Sprites_237
+    21300476: Mario Sprites_238
+    21300478: Mario Sprites_239
+    21300480: Mario Sprites_240
+    21300482: Mario Sprites_241
+    21300484: Mario Sprites_242
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 32
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mario Sprites_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 330
+        width: 14
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 10}
+        - {x: -7, y: 9}
+        - {x: -7, y: -10}
+        - {x: 7, y: -10}
+        - {x: 7, y: 10}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_1
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 331
+        width: 15
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4.5, y: 10}
+        - {x: -7.5, y: 7}
+        - {x: -7.5, y: -12}
+        - {x: 7.5, y: -12}
+        - {x: 7.5, y: 9}
+        - {x: 5.5, y: 10}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_2
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 330
+        width: 15
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2.5, y: 10}
+        - {x: -7.5, y: 6}
+        - {x: -7.5, y: -8}
+        - {x: -6.5, y: -12}
+        - {x: 7.5, y: -12}
+        - {x: 7.5, y: 8}
+        - {x: 3.5, y: 10}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_3
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 331
+        width: 15
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4.5, y: 10}
+        - {x: -7.5, y: 7}
+        - {x: -7.5, y: -12}
+        - {x: 7.5, y: -12}
+        - {x: 7.5, y: 7}
+        - {x: 4.5, y: 10}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_4
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 330
+        width: 16
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 10}
+        - {x: -8, y: 7}
+        - {x: -8, y: -12}
+        - {x: 8, y: -12}
+        - {x: 8, y: 7}
+        - {x: 6, y: 10}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_5
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 331
+        width: 15
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3.5, y: 10}
+        - {x: -7.5, y: 8}
+        - {x: -7.5, y: -12}
+        - {x: 7.5, y: -12}
+        - {x: 7.5, y: 6}
+        - {x: 4.5, y: 10}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_6
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 331
+        width: 16
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 12}
+        - {x: -8, y: 9}
+        - {x: -8, y: -12}
+        - {x: 8, y: -12}
+        - {x: 8, y: 12}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_7
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 332
+        width: 16
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 12}
+        - {x: -8, y: 8}
+        - {x: -8, y: -10}
+        - {x: -6, y: -12}
+        - {x: 8, y: -12}
+        - {x: 8, y: 8}
+        - {x: 5, y: 12}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_8
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 330
+        width: 15
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3.5, y: 11}
+        - {x: -4.5, y: 11}
+        - {x: -7.5, y: 8}
+        - {x: -7.5, y: -12}
+        - {x: 3.5, y: -12}
+        - {x: 7.5, y: -9}
+        - {x: 7.5, y: 9}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_9
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 330
+        width: 15
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6.5, y: 4}
+        - {x: -7.5, y: 2}
+        - {x: -7.5, y: -12}
+        - {x: 7.5, y: -12}
+        - {x: 7.5, y: 3}
+        - {x: 6.5, y: 4}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_10
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 330
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 6}
+        - {x: -8, y: 1}
+        - {x: -8, y: -12}
+        - {x: 8, y: -12}
+        - {x: 8, y: 2}
+        - {x: 4, y: 6}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_11
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 331
+        width: 16
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 11}
+        - {x: -6, y: 10}
+        - {x: -8, y: 7}
+        - {x: -8, y: -12}
+        - {x: 8, y: -12}
+        - {x: 8, y: 8}
+        - {x: 4, y: 11}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_12
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 330
+        width: 14
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 10}
+        - {x: -7, y: 8}
+        - {x: -7, y: -12}
+        - {x: 7, y: -12}
+        - {x: 7, y: 10}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_13
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 330
+        width: 14
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 10}
+        - {x: -7, y: 8}
+        - {x: -7, y: -12}
+        - {x: 7, y: -12}
+        - {x: 7, y: 9}
+        - {x: 4, y: 10}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_14
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 330
+        width: 16
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 11}
+        - {x: -8, y: -12}
+        - {x: 8, y: -12}
+        - {x: 8, y: 10}
+        - {x: 7, y: 11}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_15
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 330
+        width: 15
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.5, y: 10}
+        - {x: -3.5, y: 9}
+        - {x: -7.5, y: 5}
+        - {x: -7.5, y: -7}
+        - {x: -5.5, y: -12}
+        - {x: 7.5, y: -12}
+        - {x: 7.5, y: 8}
+        - {x: 6.5, y: 10}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_16
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 331
+        width: 16
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 10}
+        - {x: -8, y: 7}
+        - {x: -8, y: -12}
+        - {x: 8, y: -12}
+        - {x: 8, y: 7}
+        - {x: 5, y: 10}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_17
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 331
+        width: 15
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.5, y: 11}
+        - {x: -7.5, y: 7}
+        - {x: -7.5, y: -12}
+        - {x: 4.5, y: -12}
+        - {x: 7.5, y: -8}
+        - {x: 7.5, y: 9}
+        - {x: 5.5, y: 11}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_18
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 330
+        width: 15
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1.5, y: 11}
+        - {x: -3.5, y: 10}
+        - {x: -7.5, y: 8}
+        - {x: -7.5, y: -10}
+        - {x: -5.5, y: -12}
+        - {x: 6.5, y: -12}
+        - {x: 7.5, y: -6}
+        - {x: 7.5, y: 8}
+        - {x: 4.5, y: 11}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_19
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 330
+        width: 21
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.5, y: 11}
+        - {x: -10.5, y: 9}
+        - {x: -10.5, y: -12}
+        - {x: 8.5, y: -12}
+        - {x: 10.5, y: -10}
+        - {x: 10.5, y: 4}
+        - {x: 4.5, y: 11}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_20
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 331
+        width: 20
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 7.5}
+        - {x: -10, y: 6.5}
+        - {x: -10, y: -7.5}
+        - {x: 9, y: -7.5}
+        - {x: 10, y: -6.5}
+        - {x: 10, y: 7.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_21
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 331
+        width: 19
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.5, y: 8}
+        - {x: -9.5, y: 6}
+        - {x: -9.5, y: -5}
+        - {x: -6.5, y: -8}
+        - {x: 9.5, y: -8}
+        - {x: 9.5, y: 8}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_22
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 329
+        width: 16
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 12.5}
+        - {x: -8, y: -12.5}
+        - {x: 8, y: -12.5}
+        - {x: 8, y: 12.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_23
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 305
+        width: 16
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 9}
+        - {x: -8, y: 5}
+        - {x: -8, y: -9}
+        - {x: 5, y: -9}
+        - {x: 8, y: -7}
+        - {x: 8, y: 7}
+        - {x: 6, y: 9}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_24
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 304
+        width: 15
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.5, y: 9.5}
+        - {x: -7.5, y: 6.5}
+        - {x: -7.5, y: -9.5}
+        - {x: 6.5, y: -9.5}
+        - {x: 7.5, y: -7.5}
+        - {x: 7.5, y: 9.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_25
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 303
+        width: 15
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4.5, y: 10}
+        - {x: -7.5, y: 7}
+        - {x: -7.5, y: -10}
+        - {x: 4.5, y: -10}
+        - {x: 7.5, y: -5}
+        - {x: 7.5, y: 10}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_26
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 305
+        width: 16
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 9}
+        - {x: -8, y: 5}
+        - {x: -8, y: -9}
+        - {x: 8, y: -9}
+        - {x: 8, y: 7}
+        - {x: 7, y: 9}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_27
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 304
+        width: 16
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 9.5}
+        - {x: -8, y: 5.5}
+        - {x: -8, y: -9.5}
+        - {x: 8, y: -9.5}
+        - {x: 8, y: 7.5}
+        - {x: 7, y: 9.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_28
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 303
+        width: 16
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 10}
+        - {x: -8, y: 7}
+        - {x: -8, y: -10}
+        - {x: 8, y: -10}
+        - {x: 8, y: 9}
+        - {x: 7, y: 10}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_29
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 306
+        width: 16
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 10}
+        - {x: -8, y: -8}
+        - {x: -6, y: -10}
+        - {x: 8, y: -10}
+        - {x: 8, y: 10}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_30
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 306
+        width: 16
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 10}
+        - {x: -8, y: -10}
+        - {x: 8, y: -10}
+        - {x: 8, y: 10}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_31
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 307
+        width: 16
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: -11}
+        - {x: 8, y: -9}
+        - {x: 8, y: 11}
+        - {x: -8, y: 11}
+        - {x: -8, y: -11}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_32
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 305
+        width: 16
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 11}
+        - {x: -7, y: 11}
+        - {x: -8, y: 10}
+        - {x: -8, y: -11}
+        - {x: 6, y: -11}
+        - {x: 8, y: -8}
+        - {x: 8, y: 10}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_33
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 307
+        width: 15
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 10}
+        - {x: -7.5, y: -10}
+        - {x: 7.5, y: -10}
+        - {x: 7.5, y: 10}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_34
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 307
+        width: 15
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 10}
+        - {x: -7.5, y: -7}
+        - {x: -3.5, y: -10}
+        - {x: 6.5, y: -10}
+        - {x: 7.5, y: -6}
+        - {x: 7.5, y: 10}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_35
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 306
+        width: 15
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 10}
+        - {x: -7.5, y: -6}
+        - {x: -6.5, y: -10}
+        - {x: 7.5, y: -10}
+        - {x: 7.5, y: 10}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_36
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 306
+        width: 14
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 10.5}
+        - {x: -7, y: 8.5}
+        - {x: -7, y: -9.5}
+        - {x: -6, y: -10.5}
+        - {x: 7, y: -10.5}
+        - {x: 7, y: 10.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_37
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 307
+        width: 15
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.5, y: 9}
+        - {x: -7.5, y: 6}
+        - {x: -7.5, y: -7}
+        - {x: -5.5, y: -9}
+        - {x: 7.5, y: -9}
+        - {x: 7.5, y: 7}
+        - {x: 5.5, y: 9}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_38
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 306
+        width: 16
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 10}
+        - {x: -8, y: -10}
+        - {x: 8, y: -10}
+        - {x: 8, y: 9}
+        - {x: 7, y: 10}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_39
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 306
+        width: 14
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 8}
+        - {x: -7, y: 6}
+        - {x: -7, y: -8}
+        - {x: 7, y: -8}
+        - {x: 7, y: 6}
+        - {x: 5, y: 8}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_40
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 304
+        width: 14
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 10.5}
+        - {x: -7, y: 8.5}
+        - {x: -7, y: -9.5}
+        - {x: -6, y: -10.5}
+        - {x: 7, y: -10.5}
+        - {x: 7, y: 10.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_41
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 304
+        width: 14
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 10}
+        - {x: -7, y: -10}
+        - {x: 7, y: -10}
+        - {x: 7, y: 10}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_42
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 304
+        width: 15
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 10.5}
+        - {x: -7.5, y: -10.5}
+        - {x: 7.5, y: -10.5}
+        - {x: 7.5, y: 10.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_43
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 304
+        width: 15
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 10.5}
+        - {x: -7.5, y: -10.5}
+        - {x: 7.5, y: -10.5}
+        - {x: 7.5, y: 10.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_44
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 304
+        width: 16
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 10.5}
+        - {x: -8, y: 8.5}
+        - {x: -8, y: -4.5}
+        - {x: -6, y: -10.5}
+        - {x: 8, y: -10.5}
+        - {x: 8, y: 9.5}
+        - {x: 6, y: 10.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_45
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 304
+        width: 14
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 10}
+        - {x: -7, y: 9}
+        - {x: -7, y: -10}
+        - {x: 7, y: -10}
+        - {x: 7, y: 8}
+        - {x: 5, y: 10}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_46
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 301
+        width: 15
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4.5, y: 14}
+        - {x: -7.5, y: 12}
+        - {x: -7.5, y: -11}
+        - {x: -5.5, y: -14}
+        - {x: 7.5, y: -14}
+        - {x: 7.5, y: 13}
+        - {x: 6.5, y: 14}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_47
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 301
+        width: 14
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 10}
+        - {x: -7, y: 9}
+        - {x: -7, y: -10}
+        - {x: 7, y: -10}
+        - {x: 7, y: 10}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Idle_Big
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 271
+        width: 16
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 14}
+        - {x: -8, y: -16}
+        - {x: 7, y: -16}
+        - {x: 8, y: -12}
+        - {x: 8, y: 11}
+        - {x: 7, y: 14}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Walk1_Big
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 271
+        width: 16
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 14}
+        - {x: -8, y: 12}
+        - {x: -8, y: -16}
+        - {x: 8, y: -16}
+        - {x: 8, y: 12}
+        - {x: 4, y: 14}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Walk2_Big
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 271
+        width: 16
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 13}
+        - {x: -8, y: 8}
+        - {x: -8, y: -16}
+        - {x: 8, y: -16}
+        - {x: 8, y: 12}
+        - {x: 6, y: 13}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Idle_Holditem_Big
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 271
+        width: 16
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 14}
+        - {x: -8, y: 13}
+        - {x: -8, y: -16}
+        - {x: 8, y: -16}
+        - {x: 8, y: 13}
+        - {x: 6, y: 14}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Walk1_Holditem_Big
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 271
+        width: 16
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 14}
+        - {x: -8, y: 9}
+        - {x: -8, y: -16}
+        - {x: 8, y: -16}
+        - {x: 8, y: 10}
+        - {x: 4, y: 14}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Walk2_Holditem_Big
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 272
+        width: 16
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 14}
+        - {x: -8, y: 9}
+        - {x: -8, y: -16}
+        - {x: 8, y: -16}
+        - {x: 8, y: 10}
+        - {x: 4, y: 14}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_54
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 271
+        width: 16
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 14}
+        - {x: -8, y: 11}
+        - {x: -8, y: -15}
+        - {x: -6, y: -16}
+        - {x: 8, y: -16}
+        - {x: 8, y: 13}
+        - {x: 6, y: 14}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_55
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 269
+        width: 16
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 11}
+        - {x: -8, y: 10}
+        - {x: -8, y: -16}
+        - {x: 8, y: -16}
+        - {x: 8, y: 9}
+        - {x: 4, y: 11}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Jump_Big
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 269
+        width: 16
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: 16}
+        - {x: -1, y: 16}
+        - {x: -8, y: 11}
+        - {x: -8, y: -16}
+        - {x: 8, y: -16}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Fall_Big
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 270
+        width: 16
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 16}
+        - {x: -8, y: 15}
+        - {x: -8, y: -16}
+        - {x: 0, y: -16}
+        - {x: 7, y: -15}
+        - {x: 8, y: -15}
+        - {x: 8, y: 12}
+        - {x: 6, y: 16}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Halt_Big
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 268
+        width: 16
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 15}
+        - {x: -6, y: 15}
+        - {x: -8, y: 11}
+        - {x: -8, y: -16}
+        - {x: 2, y: -16}
+        - {x: 7, y: -10}
+        - {x: 8, y: -9}
+        - {x: 8, y: 13}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Duck_Big
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 268
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 1}
+        - {x: -8, y: -2}
+        - {x: -8, y: -16}
+        - {x: 7, y: -16}
+        - {x: 8, y: -14}
+        - {x: 8, y: -1}
+        - {x: 3, y: 1}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Duck_Holditem_Big
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 268
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 7}
+        - {x: -8, y: 3}
+        - {x: -8, y: -16}
+        - {x: 8, y: -16}
+        - {x: 8, y: 5}
+        - {x: 5, y: 7}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_61
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 268
+        width: 26
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 5}
+        - {x: -13, y: -16}
+        - {x: 13, y: -16}
+        - {x: 13, y: 3}
+        - {x: 10, y: 11}
+        - {x: 7, y: 14}
+        - {x: -4, y: 14}
+        - {x: -10, y: 11}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FaceForward_Big
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 268
+        width: 16
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 14}
+        - {x: -8, y: 13}
+        - {x: -8, y: -16}
+        - {x: 8, y: -16}
+        - {x: 8, y: 13}
+        - {x: 6, y: 14}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FaceBackward_Big
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 268
+        width: 16
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 14}
+        - {x: -5, y: 13}
+        - {x: -8, y: 10}
+        - {x: -8, y: -16}
+        - {x: 8, y: -16}
+        - {x: 8, y: 10}
+        - {x: 4, y: 14}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_64
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 268
+        width: 16
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 14}
+        - {x: -8, y: -14}
+        - {x: 8, y: -14}
+        - {x: 8, y: 14}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Run1_Big
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 268
+        width: 18
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 14}
+        - {x: -9, y: 13}
+        - {x: -9, y: -6}
+        - {x: -6, y: -14}
+        - {x: 9, y: -14}
+        - {x: 9, y: 14}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Run2_Big
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 268
+        width: 18
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 14}
+        - {x: -9, y: 8}
+        - {x: -9, y: -11}
+        - {x: -8, y: -14}
+        - {x: 9, y: -14}
+        - {x: 9, y: 13}
+        - {x: 8, y: 14}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Run3_Big
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 269
+        width: 18
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 13.5}
+        - {x: -9, y: 11.5}
+        - {x: -9, y: -13.5}
+        - {x: 9, y: -13.5}
+        - {x: 9, y: 13.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Jump_Run_Big
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 268
+        width: 19
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 13}
+        - {x: -9.5, y: 12}
+        - {x: -9.5, y: -13}
+        - {x: 6.5, y: -13}
+        - {x: 9.5, y: -10}
+        - {x: 9.5, y: 13}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: LookUp_Big
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 268
+        width: 15
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 14}
+        - {x: -8, y: 10}
+        - {x: -8, y: -8}
+        - {x: -6, y: -14}
+        - {x: 7, y: -14}
+        - {x: 8, y: -10}
+        - {x: 8, y: 11}
+        - {x: 7, y: 14}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_70
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 268
+        width: 16
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 14}
+        - {x: -8, y: 13}
+        - {x: -8, y: -10}
+        - {x: -5, y: -14}
+        - {x: 7, y: -14}
+        - {x: 8, y: -9}
+        - {x: 8, y: 14}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_71
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 269
+        width: 15
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 12}
+        - {x: -7.5, y: -8}
+        - {x: -4.5, y: -12}
+        - {x: 7.5, y: -12}
+        - {x: 7.5, y: 12}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_72
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 244
+        width: 23
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: 10.5}
+        - {x: -11.5, y: -6.5}
+        - {x: -4.5, y: -10.5}
+        - {x: 11.5, y: -10.5}
+        - {x: 11.5, y: 3.5}
+        - {x: 8.5, y: 10.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_73
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 247
+        width: 26
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 10}
+        - {x: -13, y: -8}
+        - {x: -10, y: -10}
+        - {x: 5, y: -10}
+        - {x: 13, y: -6}
+        - {x: 13, y: 10}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_74
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 245
+        width: 26
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 10}
+        - {x: -13, y: -8}
+        - {x: -8, y: -10}
+        - {x: 10, y: -10}
+        - {x: 13, y: -6}
+        - {x: 13, y: 10}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_75
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 245
+        width: 25
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.5, y: 10}
+        - {x: -12.5, y: -8}
+        - {x: -7.5, y: -10}
+        - {x: 12.5, y: -10}
+        - {x: 12.5, y: 10}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_76
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 238
+        width: 20
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 13}
+        - {x: -10, y: 12}
+        - {x: -10, y: -13}
+        - {x: 10, y: -13}
+        - {x: 10, y: 13}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_77
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 238
+        width: 19
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.5, y: -13.5}
+        - {x: 7.5, y: -13.5}
+        - {x: 9.5, y: -10.5}
+        - {x: 9.5, y: 13.5}
+        - {x: -4.5, y: 13.5}
+        - {x: -9.5, y: 12.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_78
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 238
+        width: 19
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.5, y: 13.5}
+        - {x: -9.5, y: -13.5}
+        - {x: 9.5, y: -13.5}
+        - {x: 9.5, y: 13.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_79
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 238
+        width: 20
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 13}
+        - {x: -10, y: 12}
+        - {x: -10, y: -13}
+        - {x: 10, y: -13}
+        - {x: 10, y: 13}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_80
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 238
+        width: 20
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 13.5}
+        - {x: -9, y: 10.5}
+        - {x: -10, y: 7.5}
+        - {x: -10, y: -13.5}
+        - {x: 7, y: -13.5}
+        - {x: 10, y: -9.5}
+        - {x: 10, y: 11.5}
+        - {x: 8, y: 13.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_81
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 238
+        width: 20
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 13.5}
+        - {x: -10, y: 4.5}
+        - {x: -10, y: -13.5}
+        - {x: 8, y: -13.5}
+        - {x: 10, y: -12.5}
+        - {x: 10, y: 13.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_82
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 236
+        width: 16
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 14.5}
+        - {x: -8, y: 12.5}
+        - {x: -8, y: -14.5}
+        - {x: 8, y: -14.5}
+        - {x: 8, y: 11.5}
+        - {x: 6, y: 14.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_83
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 236
+        width: 20
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 14.5}
+        - {x: -10, y: 12.5}
+        - {x: -10, y: -14.5}
+        - {x: 9, y: -14.5}
+        - {x: 10, y: -7.5}
+        - {x: 10, y: 8.5}
+        - {x: 5, y: 14.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_84
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 235
+        width: 16
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 14.5}
+        - {x: -8, y: 13.5}
+        - {x: -8, y: -14.5}
+        - {x: 8, y: -14.5}
+        - {x: 8, y: 14.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_85
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 235
+        width: 21
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.5, y: 14.5}
+        - {x: -10.5, y: 11.5}
+        - {x: -10.5, y: -14.5}
+        - {x: 7.5, y: -14.5}
+        - {x: 10.5, y: -2.5}
+        - {x: 10.5, y: 10.5}
+        - {x: 5.5, y: 14.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_86
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 235
+        width: 16
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 14.5}
+        - {x: -8, y: -14.5}
+        - {x: 5, y: -14.5}
+        - {x: 8, y: -10.5}
+        - {x: 8, y: 14.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_87
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 235
+        width: 16
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 14.5}
+        - {x: -8, y: -14.5}
+        - {x: 8, y: -14.5}
+        - {x: 8, y: 14.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_88
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 235
+        width: 16
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 14.5}
+        - {x: -8, y: 13.5}
+        - {x: -8, y: -12.5}
+        - {x: -6, y: -14.5}
+        - {x: 8, y: -14.5}
+        - {x: 8, y: 14.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_89
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 235
+        width: 16
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 14.5}
+        - {x: -8, y: 11.5}
+        - {x: -8, y: -9.5}
+        - {x: -3, y: -14.5}
+        - {x: 8, y: -14.5}
+        - {x: 8, y: 14.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_90
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 236
+        width: 22
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 14}
+        - {x: -11, y: 14}
+        - {x: -11, y: -14}
+        - {x: 10, y: -14}
+        - {x: 11, y: -9}
+        - {x: 11, y: 5}
+        - {x: 7, y: 10}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_91
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 236
+        width: 18
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 14}
+        - {x: -9, y: 14}
+        - {x: -9, y: -12}
+        - {x: -4, y: -14}
+        - {x: 9, y: -14}
+        - {x: 9, y: 12}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_92
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 208
+        width: 16
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 10}
+        - {x: -8, y: 8}
+        - {x: -8, y: -10}
+        - {x: 8, y: -10}
+        - {x: 8, y: 8}
+        - {x: 6, y: 10}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_93
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 208
+        width: 16
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 14}
+        - {x: -8, y: -11}
+        - {x: -6, y: -14}
+        - {x: 8, y: -14}
+        - {x: 8, y: 14}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_94
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 208
+        width: 16
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 14}
+        - {x: -8, y: -14}
+        - {x: 7, y: -14}
+        - {x: 8, y: -8}
+        - {x: 8, y: 14}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_95
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 208
+        width: 16
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 13}
+        - {x: -8, y: -13}
+        - {x: 8, y: -13}
+        - {x: 8, y: 13}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_96
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 208
+        width: 15
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4.5, y: 14}
+        - {x: -7.5, y: 10}
+        - {x: -7.5, y: -14}
+        - {x: 7.5, y: -14}
+        - {x: 7.5, y: 13}
+        - {x: 6.5, y: 14}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_97
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 210
+        width: 16
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 11}
+        - {x: -8, y: 9}
+        - {x: -8, y: -10}
+        - {x: -7, y: -11}
+        - {x: 8, y: -11}
+        - {x: 8, y: 11}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_98
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 206
+        width: 16
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 13.5}
+        - {x: -8, y: 9.5}
+        - {x: -8, y: -13.5}
+        - {x: 8, y: -13.5}
+        - {x: 8, y: 13.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_99
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 205
+        width: 16
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 14}
+        - {x: -8, y: -14}
+        - {x: 8, y: -14}
+        - {x: 8, y: 12}
+        - {x: 7, y: 14}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_100
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 205
+        width: 16
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 14}
+        - {x: -8, y: -14}
+        - {x: 8, y: -14}
+        - {x: 8, y: 12}
+        - {x: 7, y: 14}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_101
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 203
+        width: 28
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 19}
+        - {x: -14, y: 17}
+        - {x: -14, y: -13}
+        - {x: 12, y: -13}
+        - {x: 14, y: -6}
+        - {x: 14, y: 15}
+        - {x: 4, y: 19}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_102
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 202
+        width: 29
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.5, y: 18}
+        - {x: -14.5, y: 17}
+        - {x: -14.5, y: -11}
+        - {x: -6.5, y: -14}
+        - {x: 10.5, y: -14}
+        - {x: 14.5, y: -9}
+        - {x: 14.5, y: 8}
+        - {x: 7.5, y: 18}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_103
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 202
+        width: 27
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.5, y: 16}
+        - {x: -13.5, y: 13}
+        - {x: -13.5, y: -9}
+        - {x: -10.5, y: -14}
+        - {x: 11.5, y: -14}
+        - {x: 13.5, y: -13}
+        - {x: 13.5, y: 10}
+        - {x: 9.5, y: 16}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_104
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 200
+        width: 24
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 19}
+        - {x: -12, y: 16}
+        - {x: -12, y: -11}
+        - {x: -5, y: -16}
+        - {x: 12, y: -16}
+        - {x: 12, y: 14}
+        - {x: 7, y: 19}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_105
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 199
+        width: 24
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 19}
+        - {x: -12, y: 12}
+        - {x: -12, y: -3}
+        - {x: 0, y: -17}
+        - {x: 12, y: -17}
+        - {x: 12, y: 15}
+        - {x: 7, y: 19}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_106
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 193
+        width: 16
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 21}
+        - {x: -8, y: 15}
+        - {x: -8, y: -21}
+        - {x: 8, y: -21}
+        - {x: 8, y: 20}
+        - {x: 6, y: 21}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_107
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 199
+        width: 15
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 13.5}
+        - {x: -7.5, y: -10.5}
+        - {x: -5.5, y: -13.5}
+        - {x: 6.5, y: -13.5}
+        - {x: 7.5, y: -12.5}
+        - {x: 7.5, y: 13.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_108
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 197
+        width: 16
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 14}
+        - {x: -8, y: 11}
+        - {x: -8, y: -14}
+        - {x: 8, y: -14}
+        - {x: 8, y: 14}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_109
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 160
+        width: 14
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 10}
+        - {x: -7, y: 9}
+        - {x: -7, y: -10}
+        - {x: 7, y: -10}
+        - {x: 7, y: 10}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_110
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 161
+        width: 15
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 9.5}
+        - {x: -7.5, y: -9.5}
+        - {x: 7.5, y: -9.5}
+        - {x: 7.5, y: 9.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_111
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 160
+        width: 15
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.5, y: 10}
+        - {x: -7.5, y: 8}
+        - {x: -7.5, y: -10}
+        - {x: 7.5, y: -10}
+        - {x: 7.5, y: 10}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_112
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 161
+        width: 15
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 9.5}
+        - {x: -7.5, y: -9.5}
+        - {x: 7.5, y: -9.5}
+        - {x: 7.5, y: 9.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_113
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 160
+        width: 16
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 10}
+        - {x: -8, y: 7}
+        - {x: -8, y: -10}
+        - {x: 8, y: -10}
+        - {x: 8, y: 10}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_114
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 161
+        width: 15
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.5, y: 9.5}
+        - {x: -7.5, y: 7.5}
+        - {x: -7.5, y: -9.5}
+        - {x: 7.5, y: -9.5}
+        - {x: 7.5, y: 7.5}
+        - {x: 6.5, y: 9.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_115
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 161
+        width: 16
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 11}
+        - {x: -8, y: 6}
+        - {x: -8, y: -11}
+        - {x: 8, y: -11}
+        - {x: 8, y: 11}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_116
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 162
+        width: 16
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 10}
+        - {x: -8, y: -10}
+        - {x: 8, y: -10}
+        - {x: 8, y: 10}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_117
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 160
+        width: 15
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4.5, y: 10.5}
+        - {x: -7.5, y: 7.5}
+        - {x: -7.5, y: -10.5}
+        - {x: 4.5, y: -10.5}
+        - {x: 7.5, y: -7.5}
+        - {x: 7.5, y: 9.5}
+        - {x: 6.5, y: 10.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_118
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 160
+        width: 15
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 7}
+        - {x: -7.5, y: -7}
+        - {x: 5.5, y: -7}
+        - {x: 7.5, y: -5}
+        - {x: 7.5, y: 7}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_119
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 160
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 8}
+        - {x: -8, y: 4}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 7}
+        - {x: 7, y: 8}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_120
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 161
+        width: 16
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 10}
+        - {x: -8, y: -10}
+        - {x: 8, y: -10}
+        - {x: 8, y: 10}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_121
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 160
+        width: 14
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 10}
+        - {x: -7, y: -10}
+        - {x: 7, y: -10}
+        - {x: 7, y: 10}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_122
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 160
+        width: 14
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 10}
+        - {x: -7, y: -10}
+        - {x: 7, y: -10}
+        - {x: 7, y: 10}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_123
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 160
+        width: 16
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 10.5}
+        - {x: -8, y: -10.5}
+        - {x: 8, y: -10.5}
+        - {x: 8, y: 9.5}
+        - {x: 7, y: 10.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_124
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 160
+        width: 15
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3.5, y: 10}
+        - {x: -7.5, y: 7}
+        - {x: -7.5, y: -5}
+        - {x: -5.5, y: -10}
+        - {x: 7.5, y: -10}
+        - {x: 7.5, y: 10}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_125
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 161
+        width: 16
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 9.5}
+        - {x: -8, y: 5.5}
+        - {x: -8, y: -9.5}
+        - {x: 8, y: -9.5}
+        - {x: 8, y: 8.5}
+        - {x: 6, y: 9.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_126
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 161
+        width: 15
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4.5, y: 10}
+        - {x: -7.5, y: 7}
+        - {x: -7.5, y: -10}
+        - {x: 4.5, y: -10}
+        - {x: 7.5, y: -5}
+        - {x: 7.5, y: 10}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_127
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 160
+        width: 15
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 10.5}
+        - {x: -7.5, y: -8.5}
+        - {x: -5.5, y: -10.5}
+        - {x: 6.5, y: -10.5}
+        - {x: 7.5, y: -7.5}
+        - {x: 7.5, y: 10.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_128
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 160
+        width: 21
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.5, y: 10.5}
+        - {x: -10.5, y: 9.5}
+        - {x: -10.5, y: -10.5}
+        - {x: 7.5, y: -10.5}
+        - {x: 10.5, y: -7.5}
+        - {x: 10.5, y: 4.5}
+        - {x: 2.5, y: 10.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_129
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 161
+        width: 20
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 7.5}
+        - {x: -10, y: 6.5}
+        - {x: -10, y: -7.5}
+        - {x: 9, y: -7.5}
+        - {x: 10, y: -6.5}
+        - {x: 10, y: 7.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_130
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 161
+        width: 19
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.5, y: 8}
+        - {x: -9.5, y: 6}
+        - {x: -9.5, y: -5}
+        - {x: -6.5, y: -8}
+        - {x: 9.5, y: -8}
+        - {x: 9.5, y: 8}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_131
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 159
+        width: 16
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 12}
+        - {x: -8, y: -12}
+        - {x: 8, y: -12}
+        - {x: 8, y: 12}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_132
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 135
+        width: 16
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 9}
+        - {x: -8, y: 5}
+        - {x: -8, y: -9}
+        - {x: 5, y: -9}
+        - {x: 8, y: -7}
+        - {x: 8, y: 7}
+        - {x: 6, y: 9}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_133
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 134
+        width: 15
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.5, y: 9.5}
+        - {x: -7.5, y: 6.5}
+        - {x: -7.5, y: -9.5}
+        - {x: 6.5, y: -9.5}
+        - {x: 7.5, y: -7.5}
+        - {x: 7.5, y: 9.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_134
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 133
+        width: 15
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4.5, y: 10}
+        - {x: -7.5, y: 7}
+        - {x: -7.5, y: -10}
+        - {x: 4.5, y: -10}
+        - {x: 7.5, y: -5}
+        - {x: 7.5, y: 10}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_135
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 135
+        width: 16
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 9}
+        - {x: -8, y: 5}
+        - {x: -8, y: -9}
+        - {x: 8, y: -9}
+        - {x: 8, y: 7}
+        - {x: 7, y: 9}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_136
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 134
+        width: 16
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 9.5}
+        - {x: -8, y: 5.5}
+        - {x: -8, y: -9.5}
+        - {x: 8, y: -9.5}
+        - {x: 8, y: 7.5}
+        - {x: 7, y: 9.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_137
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 133
+        width: 16
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 10}
+        - {x: -8, y: 7}
+        - {x: -8, y: -10}
+        - {x: 8, y: -10}
+        - {x: 8, y: 9}
+        - {x: 7, y: 10}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_138
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 136
+        width: 16
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 10}
+        - {x: -8, y: -8}
+        - {x: -6, y: -10}
+        - {x: 8, y: -10}
+        - {x: 8, y: 10}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_139
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 136
+        width: 16
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 10}
+        - {x: -8, y: -10}
+        - {x: 8, y: -10}
+        - {x: 8, y: 10}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_140
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 137
+        width: 16
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 10}
+        - {x: -8, y: -10}
+        - {x: 8, y: -10}
+        - {x: 8, y: 10}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_141
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 135
+        width: 16
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 10}
+        - {x: -8, y: 7}
+        - {x: -8, y: -10}
+        - {x: 8, y: -10}
+        - {x: 8, y: 10}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_142
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 137
+        width: 15
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 10}
+        - {x: -7.5, y: -10}
+        - {x: 7.5, y: -10}
+        - {x: 7.5, y: 10}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_143
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 137
+        width: 15
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 10}
+        - {x: -7.5, y: -7}
+        - {x: -3.5, y: -10}
+        - {x: 6.5, y: -10}
+        - {x: 7.5, y: -6}
+        - {x: 7.5, y: 10}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_144
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 136
+        width: 15
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 10}
+        - {x: -7.5, y: -6}
+        - {x: -6.5, y: -10}
+        - {x: 7.5, y: -10}
+        - {x: 7.5, y: 10}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_145
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 136
+        width: 14
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 10.5}
+        - {x: -7, y: 8.5}
+        - {x: -7, y: -9.5}
+        - {x: -6, y: -10.5}
+        - {x: 7, y: -10.5}
+        - {x: 7, y: 10.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_146
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 137
+        width: 15
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.5, y: 9}
+        - {x: -7.5, y: 6}
+        - {x: -7.5, y: -7}
+        - {x: -5.5, y: -9}
+        - {x: 7.5, y: -9}
+        - {x: 7.5, y: 7}
+        - {x: 5.5, y: 9}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_147
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 136
+        width: 16
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 10}
+        - {x: -8, y: -10}
+        - {x: 8, y: -10}
+        - {x: 8, y: 9}
+        - {x: 7, y: 10}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_148
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 136
+        width: 14
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 8}
+        - {x: -7, y: 6}
+        - {x: -7, y: -8}
+        - {x: 7, y: -8}
+        - {x: 7, y: 6}
+        - {x: 5, y: 8}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_149
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 134
+        width: 14
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 10.5}
+        - {x: -7, y: 8.5}
+        - {x: -7, y: -9.5}
+        - {x: -6, y: -10.5}
+        - {x: 7, y: -10.5}
+        - {x: 7, y: 10.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_150
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 134
+        width: 14
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 10}
+        - {x: -7, y: -10}
+        - {x: 7, y: -10}
+        - {x: 7, y: 10}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_151
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 134
+        width: 15
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 10.5}
+        - {x: -7.5, y: -10.5}
+        - {x: 7.5, y: -10.5}
+        - {x: 7.5, y: 10.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_152
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 134
+        width: 15
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 10.5}
+        - {x: -7.5, y: -10.5}
+        - {x: 7.5, y: -10.5}
+        - {x: 7.5, y: 10.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_153
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 134
+        width: 16
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 10.5}
+        - {x: -8, y: 8.5}
+        - {x: -8, y: -4.5}
+        - {x: -6, y: -10.5}
+        - {x: 8, y: -10.5}
+        - {x: 8, y: 9.5}
+        - {x: 6, y: 10.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_154
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 134
+        width: 14
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 10}
+        - {x: -7, y: 9}
+        - {x: -7, y: -10}
+        - {x: 7, y: -10}
+        - {x: 7, y: 8}
+        - {x: 5, y: 10}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_155
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 131
+        width: 15
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4.5, y: 14}
+        - {x: -7.5, y: 12}
+        - {x: -7.5, y: -11}
+        - {x: -5.5, y: -14}
+        - {x: 7.5, y: -14}
+        - {x: 7.5, y: 13}
+        - {x: 6.5, y: 14}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_156
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 131
+        width: 14
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 10}
+        - {x: -7, y: 9}
+        - {x: -7, y: -10}
+        - {x: 7, y: -10}
+        - {x: 7, y: 10}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_157
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 101
+        width: 15
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4.5, y: 14}
+        - {x: -7.5, y: 12}
+        - {x: -7.5, y: -11}
+        - {x: -5.5, y: -14}
+        - {x: 7.5, y: -14}
+        - {x: 7.5, y: 13}
+        - {x: 6.5, y: 14}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_158
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 101
+        width: 16
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 14}
+        - {x: -8, y: 10}
+        - {x: -8, y: -14}
+        - {x: 8, y: -14}
+        - {x: 8, y: 14}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_159
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 101
+        width: 16
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 13.5}
+        - {x: -8, y: 10.5}
+        - {x: -8, y: -13.5}
+        - {x: 8, y: -13.5}
+        - {x: 8, y: 13.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_160
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 101
+        width: 16
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 14}
+        - {x: -8, y: -14}
+        - {x: 7, y: -14}
+        - {x: 8, y: -13}
+        - {x: 8, y: 14}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_161
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 101
+        width: 16
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 14}
+        - {x: -8, y: -14}
+        - {x: 8, y: -14}
+        - {x: 8, y: 14}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_162
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 102
+        width: 16
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 13.5}
+        - {x: -8, y: -13.5}
+        - {x: 8, y: -13.5}
+        - {x: 8, y: 13.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_163
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 101
+        width: 16
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 14}
+        - {x: -8, y: 10}
+        - {x: -8, y: -9}
+        - {x: -5, y: -14}
+        - {x: 8, y: -14}
+        - {x: 8, y: 14}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_164
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 99
+        width: 16
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 12.5}
+        - {x: -8, y: -11.5}
+        - {x: -7, y: -12.5}
+        - {x: 8, y: -12.5}
+        - {x: 8, y: 12.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_165
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 99
+        width: 16
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: 15.5}
+        - {x: 0, y: 15.5}
+        - {x: -4, y: 13.5}
+        - {x: -8, y: 9.5}
+        - {x: -8, y: -15.5}
+        - {x: 8, y: -15.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_166
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 100
+        width: 16
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 14.5}
+        - {x: -8, y: 12.5}
+        - {x: -8, y: -14.5}
+        - {x: 8, y: -14.5}
+        - {x: 8, y: 10.5}
+        - {x: 6, y: 14.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_167
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 98
+        width: 16
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 14.5}
+        - {x: -8, y: 13.5}
+        - {x: -8, y: -14.5}
+        - {x: 2, y: -14.5}
+        - {x: 8, y: -7.5}
+        - {x: 8, y: 14.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_168
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 98
+        width: 26
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 14}
+        - {x: -13, y: 4}
+        - {x: -13, y: -14}
+        - {x: 13, y: -14}
+        - {x: 13, y: 4}
+        - {x: 7, y: 14}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_169
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 98
+        width: 16
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 14}
+        - {x: -8, y: -14}
+        - {x: 8, y: -14}
+        - {x: 8, y: 14}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_170
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 98
+        width: 16
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 14}
+        - {x: -8, y: -14}
+        - {x: 8, y: -14}
+        - {x: 8, y: 14}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_171
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 98
+        width: 16
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 14}
+        - {x: -8, y: -14}
+        - {x: 8, y: -14}
+        - {x: 8, y: 14}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_172
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 98
+        width: 18
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 14}
+        - {x: -9, y: 13}
+        - {x: -9, y: -6}
+        - {x: -6, y: -14}
+        - {x: 9, y: -14}
+        - {x: 9, y: 14}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_173
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 98
+        width: 18
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 14}
+        - {x: -9, y: 8}
+        - {x: -9, y: -11}
+        - {x: -8, y: -14}
+        - {x: 9, y: -14}
+        - {x: 9, y: 13}
+        - {x: 8, y: 14}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_174
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 99
+        width: 18
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 13.5}
+        - {x: -9, y: 11.5}
+        - {x: -9, y: -13.5}
+        - {x: 9, y: -13.5}
+        - {x: 9, y: 13.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_175
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 98
+        width: 19
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 13}
+        - {x: -9.5, y: 12}
+        - {x: -9.5, y: -13}
+        - {x: 6.5, y: -13}
+        - {x: 9.5, y: -10}
+        - {x: 9.5, y: 13}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_176
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 98
+        width: 15
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 13.5}
+        - {x: -7.5, y: -11.5}
+        - {x: -6.5, y: -13.5}
+        - {x: 6.5, y: -13.5}
+        - {x: 7.5, y: -6.5}
+        - {x: 7.5, y: 12.5}
+        - {x: 6.5, y: 13.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_177
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 98
+        width: 16
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 14}
+        - {x: -8, y: 13}
+        - {x: -8, y: -10}
+        - {x: -5, y: -14}
+        - {x: 7, y: -14}
+        - {x: 8, y: -9}
+        - {x: 8, y: 14}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_178
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 99
+        width: 15
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 12}
+        - {x: -7.5, y: -8}
+        - {x: -4.5, y: -12}
+        - {x: 7.5, y: -12}
+        - {x: 7.5, y: 12}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_179
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 122
+        width: 6
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 3.5}
+        - {x: -3, y: -3.5}
+        - {x: 3, y: -3.5}
+        - {x: 3, y: 3.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_180
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 98
+        width: 16
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 10.5}
+        - {x: -8, y: 9.5}
+        - {x: -8, y: -8.5}
+        - {x: -6, y: -10.5}
+        - {x: 8, y: -10.5}
+        - {x: 8, y: 10.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_181
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 114
+        width: 7
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3.5, y: 3}
+        - {x: -3.5, y: -3}
+        - {x: 3.5, y: -3}
+        - {x: 3.5, y: 3}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_182
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 98
+        width: 16
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 7.5}
+        - {x: -8, y: 6.5}
+        - {x: -8, y: -7.5}
+        - {x: 7, y: -7.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 7.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_183
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 106
+        width: 6
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 3.5}
+        - {x: -3, y: -3.5}
+        - {x: 3, y: -3.5}
+        - {x: 3, y: 3.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_184
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 99
+        width: 7
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3.5, y: 3}
+        - {x: -3.5, y: -3}
+        - {x: 3.5, y: -3}
+        - {x: 3.5, y: 3}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_185
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 74
+        width: 23
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: 10.5}
+        - {x: -11.5, y: -6.5}
+        - {x: -4.5, y: -10.5}
+        - {x: 11.5, y: -10.5}
+        - {x: 11.5, y: 3.5}
+        - {x: 8.5, y: 10.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_186
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 77
+        width: 26
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 10}
+        - {x: -13, y: -8}
+        - {x: -10, y: -10}
+        - {x: 5, y: -10}
+        - {x: 13, y: -6}
+        - {x: 13, y: 10}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_187
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 75
+        width: 26
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 10}
+        - {x: -13, y: -8}
+        - {x: -8, y: -10}
+        - {x: 10, y: -10}
+        - {x: 13, y: -6}
+        - {x: 13, y: 10}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_188
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 75
+        width: 25
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.5, y: 10}
+        - {x: -12.5, y: -8}
+        - {x: -7.5, y: -10}
+        - {x: 12.5, y: -10}
+        - {x: 12.5, y: 10}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_189
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 68
+        width: 20
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 13}
+        - {x: -10, y: 12}
+        - {x: -10, y: -13}
+        - {x: 10, y: -13}
+        - {x: 10, y: 13}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_190
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 68
+        width: 19
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.5, y: -13.5}
+        - {x: 7.5, y: -13.5}
+        - {x: 9.5, y: -10.5}
+        - {x: 9.5, y: 13.5}
+        - {x: -4.5, y: 13.5}
+        - {x: -9.5, y: 12.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_191
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 68
+        width: 19
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.5, y: 13.5}
+        - {x: -9.5, y: -13.5}
+        - {x: 9.5, y: -13.5}
+        - {x: 9.5, y: 13.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_192
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 68
+        width: 20
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 13}
+        - {x: -10, y: 12}
+        - {x: -10, y: -13}
+        - {x: 10, y: -13}
+        - {x: 10, y: 13}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_193
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 68
+        width: 20
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 13.5}
+        - {x: -9, y: 10.5}
+        - {x: -10, y: 7.5}
+        - {x: -10, y: -13.5}
+        - {x: 7, y: -13.5}
+        - {x: 10, y: -9.5}
+        - {x: 10, y: 11.5}
+        - {x: 8, y: 13.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_194
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 68
+        width: 20
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 13.5}
+        - {x: -10, y: 4.5}
+        - {x: -10, y: -13.5}
+        - {x: 8, y: -13.5}
+        - {x: 10, y: -12.5}
+        - {x: 10, y: 13.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_195
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 66
+        width: 16
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 14.5}
+        - {x: -8, y: 12.5}
+        - {x: -8, y: -14.5}
+        - {x: 8, y: -14.5}
+        - {x: 8, y: 11.5}
+        - {x: 6, y: 14.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_196
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 66
+        width: 20
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 14.5}
+        - {x: -10, y: 12.5}
+        - {x: -10, y: -14.5}
+        - {x: 9, y: -14.5}
+        - {x: 10, y: -7.5}
+        - {x: 10, y: 8.5}
+        - {x: 5, y: 14.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_197
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 65
+        width: 16
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 14.5}
+        - {x: -8, y: 13.5}
+        - {x: -8, y: -14.5}
+        - {x: 8, y: -14.5}
+        - {x: 8, y: 14.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_198
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 65
+        width: 21
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.5, y: 14.5}
+        - {x: -10.5, y: 11.5}
+        - {x: -10.5, y: -14.5}
+        - {x: 7.5, y: -14.5}
+        - {x: 10.5, y: -2.5}
+        - {x: 10.5, y: 10.5}
+        - {x: 5.5, y: 14.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_199
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 65
+        width: 16
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 14.5}
+        - {x: -8, y: -14.5}
+        - {x: 5, y: -14.5}
+        - {x: 8, y: -10.5}
+        - {x: 8, y: 14.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_200
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 65
+        width: 16
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 14.5}
+        - {x: -8, y: -14.5}
+        - {x: 8, y: -14.5}
+        - {x: 8, y: 14.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_201
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 65
+        width: 16
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 14.5}
+        - {x: -8, y: 13.5}
+        - {x: -8, y: -12.5}
+        - {x: -6, y: -14.5}
+        - {x: 8, y: -14.5}
+        - {x: 8, y: 14.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_202
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 65
+        width: 16
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 14.5}
+        - {x: -8, y: 11.5}
+        - {x: -8, y: -9.5}
+        - {x: -3, y: -14.5}
+        - {x: 8, y: -14.5}
+        - {x: 8, y: 14.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_203
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 66
+        width: 22
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 14}
+        - {x: -11, y: 14}
+        - {x: -11, y: -14}
+        - {x: 10, y: -14}
+        - {x: 11, y: -9}
+        - {x: 11, y: 5}
+        - {x: 7, y: 10}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_204
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 66
+        width: 18
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 14}
+        - {x: -9, y: 14}
+        - {x: -9, y: -12}
+        - {x: -4, y: -14}
+        - {x: 9, y: -14}
+        - {x: 9, y: 12}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_205
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 38
+        width: 16
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 10}
+        - {x: -8, y: 8}
+        - {x: -8, y: -10}
+        - {x: 8, y: -10}
+        - {x: 8, y: 8}
+        - {x: 6, y: 10}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_206
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 38
+        width: 16
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 14}
+        - {x: -8, y: -11}
+        - {x: -6, y: -14}
+        - {x: 8, y: -14}
+        - {x: 8, y: 14}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_207
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 38
+        width: 16
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 14}
+        - {x: -8, y: -14}
+        - {x: 7, y: -14}
+        - {x: 8, y: -8}
+        - {x: 8, y: 14}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_208
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 38
+        width: 16
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 13}
+        - {x: -8, y: -13}
+        - {x: 8, y: -13}
+        - {x: 8, y: 13}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_209
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 38
+        width: 15
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4.5, y: 14}
+        - {x: -7.5, y: 10}
+        - {x: -7.5, y: -14}
+        - {x: 7.5, y: -14}
+        - {x: 7.5, y: 13}
+        - {x: 6.5, y: 14}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_210
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 40
+        width: 16
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 11}
+        - {x: -8, y: 9}
+        - {x: -8, y: -10}
+        - {x: -7, y: -11}
+        - {x: 8, y: -11}
+        - {x: 8, y: 11}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_211
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 36
+        width: 16
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 13.5}
+        - {x: -8, y: 9.5}
+        - {x: -8, y: -13.5}
+        - {x: 8, y: -13.5}
+        - {x: 8, y: 13.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_212
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 35
+        width: 16
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 14}
+        - {x: -8, y: -14}
+        - {x: 8, y: -14}
+        - {x: 8, y: 12}
+        - {x: 7, y: 14}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_213
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 35
+        width: 16
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 14}
+        - {x: -8, y: -14}
+        - {x: 8, y: -14}
+        - {x: 8, y: 12}
+        - {x: 7, y: 14}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_214
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 33
+        width: 28
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 14}
+        - {x: -14, y: 12}
+        - {x: -14, y: -14}
+        - {x: 9, y: -14}
+        - {x: 14, y: -8}
+        - {x: 14, y: 10}
+        - {x: 7, y: 14}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_215
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 32
+        width: 29
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.5, y: 14}
+        - {x: -14.5, y: -13}
+        - {x: -10.5, y: -14}
+        - {x: 11.5, y: -14}
+        - {x: 14.5, y: -11}
+        - {x: 14.5, y: 6}
+        - {x: 8.5, y: 14}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_216
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 32
+        width: 27
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.5, y: 13}
+        - {x: -13.5, y: -13}
+        - {x: 13.5, y: -13}
+        - {x: 13.5, y: 12}
+        - {x: 10.5, y: 13}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_217
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 30
+        width: 24
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 15.5}
+        - {x: -12, y: 13.5}
+        - {x: -12, y: -12.5}
+        - {x: -10, y: -15.5}
+        - {x: 12, y: -15.5}
+        - {x: 12, y: 15.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_218
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 29
+        width: 24
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 16}
+        - {x: -12, y: 13}
+        - {x: -12, y: -9}
+        - {x: -2, y: -16}
+        - {x: 12, y: -16}
+        - {x: 12, y: 14}
+        - {x: 9, y: 16}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_219
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 23
+        width: 16
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 20.5}
+        - {x: -8, y: 19.5}
+        - {x: -8, y: -20.5}
+        - {x: 8, y: -20.5}
+        - {x: 8, y: 20.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_220
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 29
+        width: 15
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 13.5}
+        - {x: -7.5, y: -10.5}
+        - {x: -5.5, y: -13.5}
+        - {x: 6.5, y: -13.5}
+        - {x: 7.5, y: -12.5}
+        - {x: 7.5, y: 13.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_221
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 27
+        width: 16
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 14}
+        - {x: -8, y: 11}
+        - {x: -8, y: -14}
+        - {x: 8, y: -14}
+        - {x: 8, y: 14}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_222
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 23
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -5}
+        - {x: -3, y: -5}
+        - {x: -1, y: -3}
+        - {x: 11, y: -13}
+        - {x: 16, y: -13}
+        - {x: 16, y: -5}
+        - {x: 8, y: 13}
+        - {x: -15, y: 13}
+        - {x: -16, y: 12}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_223
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 23
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 16}
+        - {x: -8, y: -4}
+        - {x: -4, y: -16}
+        - {x: 4, y: -16}
+        - {x: 8, y: -4}
+        - {x: 8, y: 16}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_224
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 6
+        width: 15
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 5}
+        - {x: -7.5, y: -5}
+        - {x: 7.5, y: -5}
+        - {x: 7.5, y: 1}
+        - {x: 1.5, y: 5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_225
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 0
+        width: 14
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 8}
+        - {x: -7, y: -7}
+        - {x: -6, y: -8}
+        - {x: 5, y: -8}
+        - {x: 7, y: -3}
+        - {x: 7, y: 8}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_226
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 5
+        width: 16
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 5.5}
+        - {x: -8, y: -2.5}
+        - {x: -5, y: -5.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 1.5}
+        - {x: 5, y: 5.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_227
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 3
+        width: 16
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 3}
+        - {x: -8, y: -2}
+        - {x: -7, y: -3}
+        - {x: 5, y: -3}
+        - {x: 8, y: -1}
+        - {x: 8, y: 3}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_228
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 0
+        width: 16
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 6.5}
+        - {x: -8, y: -6.5}
+        - {x: 6, y: -6.5}
+        - {x: 8, y: -2.5}
+        - {x: 8, y: 6.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_229
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 0
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 8}
+        - {x: -8, y: 3}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 4}
+        - {x: 5, y: 8}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_230
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 1
+        width: 10
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 7.5}
+        - {x: -5, y: 3.5}
+        - {x: -5, y: -7.5}
+        - {x: 5, y: -7.5}
+        - {x: 5, y: 7.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_231
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1
+        width: 6
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 8}
+        - {x: -3, y: 5}
+        - {x: -3, y: -7}
+        - {x: -2, y: -8}
+        - {x: 3, y: -8}
+        - {x: 3, y: 8}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_232
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 2
+        width: 16
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 7}
+        - {x: -8, y: -7}
+        - {x: 8, y: -7}
+        - {x: 8, y: 4}
+        - {x: 7, y: 7}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_233
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 2
+        width: 13
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.5, y: 7.5}
+        - {x: -6.5, y: 6.5}
+        - {x: -6.5, y: -4.5}
+        - {x: -3.5, y: -7.5}
+        - {x: 6.5, y: -7.5}
+        - {x: 6.5, y: 3.5}
+        - {x: 2.5, y: 7.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_234
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 1
+        width: 10
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 8}
+        - {x: -4, y: 7}
+        - {x: -5, y: 6}
+        - {x: -5, y: -8}
+        - {x: 5, y: -8}
+        - {x: 5, y: 8}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_235
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 1
+        width: 11
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.5, y: 8}
+        - {x: -5.5, y: -8}
+        - {x: 5.5, y: -8}
+        - {x: 5.5, y: 8}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_236
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 8}
+        - {x: -8, y: 3}
+        - {x: -3, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_237
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 1
+        width: 16
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 4}
+        - {x: -8, y: -5}
+        - {x: 8, y: -5}
+        - {x: 8, y: 5}
+        - {x: -6, y: 5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_238
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 1
+        width: 14
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 8}
+        - {x: -7, y: -1}
+        - {x: -2, y: -8}
+        - {x: 7, y: -8}
+        - {x: 7, y: 8}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_239
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 1
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -2}
+        - {x: -7, y: -5}
+        - {x: -3, y: -8}
+        - {x: 7, y: -8}
+        - {x: 8, y: -1}
+        - {x: 8, y: 8}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_240
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 8}
+        - {x: -8, y: 6}
+        - {x: -8, y: -4}
+        - {x: -4, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 6}
+        - {x: 4, y: 8}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_241
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1
+        width: 16
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 7}
+        - {x: -8, y: -7}
+        - {x: 8, y: -7}
+        - {x: 8, y: 6}
+        - {x: 7, y: 7}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mario Sprites_242
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 0
+        width: 14
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 8}
+        - {x: -7, y: -8}
+        - {x: 6, y: -8}
+        - {x: 7, y: -7}
+        - {x: 7, y: 8}
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
