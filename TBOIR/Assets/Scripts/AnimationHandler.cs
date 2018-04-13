@@ -8,6 +8,8 @@ public class AnimationHandler : MonoBehaviour {
 
     public Sprite Forward, Backward, Horizontal, ForwardCrying, BackwardCrying, HorizontalCrying, ItemAquire;
 
+    public Sprite[] Invincible;
+
     //head and body object
     public GameObject headObject, bodyObject;
 
@@ -19,6 +21,7 @@ public class AnimationHandler : MonoBehaviour {
         type.BackwardCrying = BackwardCrying;
         type.HorizontalCrying = HorizontalCrying;
         type.ItemAquire = ItemAquire;
+        type.Invincible = Invincible;
     }
     // Update is called once per frame
     void Update () {
@@ -91,10 +94,24 @@ public class BodyType {
     public SpriteRenderer headSprite, bodySprite;
     //TODO create sub classes
     public Sprite Forward, Backward, Horizontal, ForwardCrying, BackwardCrying, HorizontalCrying, ItemAquire;
+    public Sprite[] Invincible;
 
     //head and body object
     public GameObject headObject, bodyObject;
     public Animator bodyAnim;
+
+    bool animateInvinciblity = false;
+    float animationTime = 0;
+
+    void Invincibility() {
+        float frametime = 0.2f;
+        animationTime += Time.deltaTime;
+        if (!animateInvinciblity) {
+            animationTime = 0;
+            animateInvinciblity = true;
+
+        }
+    }
 
     //TODO: add failsafes for multiple bodytypes
     //[hideininspector]
@@ -117,9 +134,7 @@ public class BodyType {
             facing.forward = true;
 
             crying = false;
-            facing.right = false;
             headSprite.flipX = false;
-            facing.backward = false;
         }
         //if you've aquired an item
         if (bodyAnim.GetBool("Item Aquire")) {

@@ -2,13 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+#pragma warning disable 0414 // private field assigned but not used.
+
 public class Player : Entity {
     Vector2 moveValue = new Vector2();
-
-
+    
     public int health;
 
     Transform currentObject, topObject, bottomObject, leftObject, rightObject;
+
+    Effect Invincibility = new Effect(0,7.0f);
 
     //--------------------------Surrogate Variables--------------------------//
     // for animationHandler(only used to clean code)
@@ -101,6 +104,7 @@ public class Player : Entity {
         projectile = Instantiate(projectilePrefab, projectileSpawn.position, projectileSpawn.rotation);
     }
 
+    //-------------Effect Enders-------------//
     void ItemAquired() {
         aquireItem = false;
     }
@@ -149,6 +153,8 @@ public class Player : Entity {
 	// Update is called once per frame
 	void Update () {
         SetSurrogates();
+
+        Invincibility.Update();
 
         //adds movement to velocity
         Body.velocity = new Vector2(moveValue.x * speed, moveValue.y * speed);

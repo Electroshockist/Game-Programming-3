@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+#pragma warning disable 0414 // private field assigned but not used.
+
 
 public class Entity : MonoBehaviour {
     public Rigidbody2D Body;
@@ -22,3 +24,22 @@ public class Entity : MonoBehaviour {
 		
 	}
 }
+
+//basis for powerup
+public class Effect {
+    public int ID;
+    public float remaingDuration;
+    public bool active;
+
+    public Effect(int _ID, float _remainingDuration) { }
+
+    void Deactivate() {
+        active = false;
+    }
+
+    public void Update() {
+        if (remaingDuration > 0) remaingDuration -= Time.deltaTime;
+        else Deactivate();
+    }
+}
+
