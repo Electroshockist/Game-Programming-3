@@ -36,6 +36,7 @@ public class AnimationHandler : MonoBehaviour {
         }
     }
 }
+
 //for differentiating between body and head
 public class ControlType {
     [HideInInspector]
@@ -88,8 +89,8 @@ public class ControlType {
         }
     }
 }
+
 //for future-proofing when entities of different body types come into play
-//TODO: figure out how to implement
 public class BodyType {
     public SpriteRenderer headSprite, bodySprite;
     //TODO create sub classes
@@ -99,19 +100,6 @@ public class BodyType {
     //head and body object
     public GameObject headObject, bodyObject;
     public Animator bodyAnim;
-
-    bool animateInvinciblity = false;
-    float animationTime = 0;
-
-    void Invincibility() {
-        float frametime = 0.2f;
-        animationTime += Time.deltaTime;
-        if (!animateInvinciblity) {
-            animationTime = 0;
-            animateInvinciblity = true;
-
-        }
-    }
 
     //TODO: add failsafes for multiple bodytypes
     //[hideininspector]
@@ -123,21 +111,69 @@ public class BodyType {
     //decides whether to use facing direction or moving direction
     public ControlType facing = new ControlType();
     public ControlType moving = new ControlType();
-    
-    //TODO
-    public void isPlayer() {
-        humanoid = true;
+
+    //TODO: streamline effects
+    public bool invincible;
+    float invincibleTime = 7.0f;
+    float animationTime = 0;
+
+    void Invincibility() {
+        float frametime = 0.5f;
+
+        if (animationTime < frametime * 6) {
+            animationTime = 0;
+            Debug.Log(frametime * 5);
+
+        }
+        else if (animationTime < frametime * 5) {
+            headSprite.sprite = Invincible[4];
+            Debug.Log(Invincible[4]);
+        }
+        else if (animationTime < frametime * 4) {
+            headSprite.sprite = Invincible[3];
+            Debug.Log(frametime * 4);
+        }
+        else if (animationTime < frametime * 3) {
+            headSprite.sprite = Invincible[2];
+            Debug.Log(frametime * 3);
+        }
+
+        else if (animationTime < frametime * 2) {
+            headSprite.sprite = Invincible[1];
+            Debug.Log(frametime * 2);
+        }
+        else if (animationTime < frametime) {
+            bodySprite.sprite = Invincible[0];
+            Debug.Log(frametime);
+        }
     }
+
+    //TODO
+    public void isPlayer() {humanoid = true;}
+
     public void isHumanoid() {
         //if you are not pressing a firing button, face foreward and reset animations
-        if (facing.AllFalse()) {
+        if (facing.AllFalse() && invincibleTime <= 0 && !bodyAnim.GetBool("Item Aquire")) {
+            Debug.Log("test");
             facing.forward = true;
 
             crying = false;
             headSprite.flipX = false;
         }
+        Debug.Log(invincible);
+
+        if (invincible) {
+            Invincibility();
+            invincibleTime -= Time.deltaTime;
+            animationTime += Time.deltaTime;
+            if (invincibleTime <= 0) {
+                invincible = false;
+                invincibleTime = 0.7f;
+                animationTime = 0;
+            }
+        }
         //if you've aquired an item
-        if (bodyAnim.GetBool("Item Aquire")) {
+        else if (bodyAnim.GetBool("Item Aquire")) {
             bodySprite.sprite = ItemAquire;
             headSprite.enabled = false;
         }

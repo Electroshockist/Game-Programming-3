@@ -11,7 +11,7 @@ public class Player : Entity {
 
     Transform currentObject, topObject, bottomObject, leftObject, rightObject;
 
-    Effect Invincibility = new Effect(0,7.0f);
+    Effect Invincibility = new Effect(0);
 
     //--------------------------Surrogate Variables--------------------------//
     // for animationHandler(only used to clean code)
@@ -155,6 +155,10 @@ public class Player : Entity {
         SetSurrogates();
 
         Invincibility.Update();
+        
+        if (Invincibility.remaingDuration > 0) speed = baseSpeed + (baseSpeed/100)*50;
+        else speed = baseSpeed;
+
 
         //adds movement to velocity
         Body.velocity = new Vector2(moveValue.x * speed, moveValue.y * speed);
@@ -178,7 +182,6 @@ public class Player : Entity {
 
         if (!aquireItem) {
             //facing animations
-            
             if (Input.GetKey(KeyCode.UpArrow)) {
                 anim.type.facing.ForceFacing("backward");
                 currentObject = topObject;
@@ -216,6 +219,12 @@ public class Player : Entity {
         if (Input.GetKeyDown(KeyCode.Space)) {
             aquireItem = true;
             Invoke("ItemAquired", 3.0f);
+        }
+
+        //Powerup Activation
+        if (Input.GetKeyDown(KeyCode.LeftShift)) {
+            Invincibility.remaingDuration = 7.0f;
+            anim.type.invincible = true;
         }
     }
 

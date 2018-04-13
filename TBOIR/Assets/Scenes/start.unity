@@ -962,6 +962,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Body: {fileID: 510749563}
   anim: {fileID: 0}
+  baseSpeed: 0
   speed: 0
   health: 0
   projectilePrefab: {fileID: 114633903563757098, guid: 736e08648293c2a48b4cb4b8b09a2ad3,

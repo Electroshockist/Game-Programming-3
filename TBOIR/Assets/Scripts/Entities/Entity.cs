@@ -8,7 +8,7 @@ using UnityEngine;
 public class Entity : MonoBehaviour {
     public Rigidbody2D Body;
     public AnimationHandler anim;
-    public float speed;
+    public float baseSpeed,speed;
 
     MusicScript sound;
 
@@ -16,12 +16,8 @@ public class Entity : MonoBehaviour {
     void Awake () {
         anim = GetComponent<AnimationHandler>();
         sound = GameObject.Find("Main Camera").GetComponent<MusicScript>();
-        if(speed <= 0.0f) speed = 100.0f;
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
+        if (baseSpeed <= 0.0f) baseSpeed = 100.0f;
+        if (speed <= 0.0f) speed = baseSpeed;
 	}
 }
 
@@ -31,7 +27,9 @@ public class Effect {
     public float remaingDuration;
     public bool active;
 
-    public Effect(int _ID, float _remainingDuration) { }
+    public Effect(int _ID) {
+        ID = _ID;
+    }
 
     void Deactivate() {
         active = false;

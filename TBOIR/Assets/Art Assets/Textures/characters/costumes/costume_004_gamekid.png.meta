@@ -4,11 +4,11 @@ timeCreated: 1523110026
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: costume_004_gamekid_0
-    21300002: costume_004_gamekid_1
-    21300004: costume_004_gamekid_2
-    21300006: costume_004_gamekid_3
-    21300008: costume_004_gamekid_4
+    21300000: GameKid_Default_1
+    21300002: GameKid_Default_2
+    21300004: GameKid_Default_3
+    21300006: GameKid_Default_4
+    21300008: GameKid_Default_5
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -85,7 +85,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: costume_004_gamekid_0
+      name: GameKid_Default_1
       rect:
         serializedVersion: 2
         x: 18
@@ -99,7 +99,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: costume_004_gamekid_1
+      name: GameKid_Default_2
       rect:
         serializedVersion: 2
         x: 83
@@ -113,7 +113,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: costume_004_gamekid_2
+      name: GameKid_Default_3
       rect:
         serializedVersion: 2
         x: 149
@@ -127,7 +127,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: costume_004_gamekid_3
+      name: GameKid_Default_4
       rect:
         serializedVersion: 2
         x: 208
@@ -141,7 +141,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: costume_004_gamekid_4
+      name: GameKid_Default_5
       rect:
         serializedVersion: 2
         x: 275
