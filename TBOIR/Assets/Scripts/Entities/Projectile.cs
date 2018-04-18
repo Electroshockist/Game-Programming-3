@@ -12,8 +12,8 @@ public class Projectile : Entity {
 	}
 
     void Update() {
-        //figure out why this doesn't work
-        Body.velocity = new Vector2(speedx, speedy);
+        if (GameManager.paused) Body.velocity = new Vector2(0, 0);
+        else Body.velocity = new Vector2(speedx, speedy);
     }
 
     void OnCollisionEnter2D(Collision2D collision) {

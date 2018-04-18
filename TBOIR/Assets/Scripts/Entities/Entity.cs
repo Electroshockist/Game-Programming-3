@@ -6,16 +6,14 @@ using UnityEngine;
 
 
 public class Entity : MonoBehaviour {
+    [HideInInspector]
     public Rigidbody2D Body;
     public AnimationHandler anim;
     public float baseSpeed,speed;
 
-    MusicScript sound;
-
-    // Use this for initialization
+       // Use this for initialization
     void Awake () {
         anim = GetComponent<AnimationHandler>();
-        sound = GameObject.Find("Main Camera").GetComponent<MusicScript>();
         if (baseSpeed <= 0.0f) baseSpeed = 100.0f;
         if (speed <= 0.0f) speed = baseSpeed;
 	}

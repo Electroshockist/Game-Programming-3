@@ -154,78 +154,83 @@ public class Player : Entity {
 	void Update () {
         SetSurrogates();
 
-        Invincibility.Update();
-        
-        if (Invincibility.remaingDuration > 0) speed = baseSpeed + (baseSpeed/100)*50;
-        else speed = baseSpeed;
-
-
         //adds movement to velocity
         Body.velocity = new Vector2(moveValue.x * speed, moveValue.y * speed);
-        moveValue.x = Input.GetAxisRaw("Horizontal");
-        moveValue.y = Input.GetAxisRaw("Vertical");
 
-        //checks if you're picking up an item
-        if (!aquireItem) {
-            //flips body if moving left
-            if (moveValue.x >= 0) anim.type.bodySprite.flipX = false;
-            else if (moveValue.x < 0) anim.type.bodySprite.flipX = true;
+        if (!GameManager.paused) {
 
-            //horizontal movement animations
-            if (moveValue.x != 0) isWalkingHorizontal = true;
-            else isWalkingHorizontal = false;
+            Invincibility.Update();
 
-            //vertical movement animations
-            if (moveValue.y != 0) isWalkingVertical = true;
-            else isWalkingVertical = false;
-        }
+            if (Invincibility.remaingDuration > 0) speed = baseSpeed + (baseSpeed / 100) * 50;
+            else speed = baseSpeed;
 
-        if (!aquireItem) {
-            //facing animations
-            if (Input.GetKey(KeyCode.UpArrow)) {
-                anim.type.facing.ForceFacing("backward");
-                currentObject = topObject;
-                Crying();
+
+            moveValue.x = Input.GetAxisRaw("Horizontal");
+            moveValue.y = Input.GetAxisRaw("Vertical");
+
+            //checks if you're picking up an item
+            if (!aquireItem) {
+                //flips body if moving left
+                if (moveValue.x >= 0) anim.type.bodySprite.flipX = false;
+                else if (moveValue.x < 0) anim.type.bodySprite.flipX = true;
+
+                //horizontal movement animations
+                if (moveValue.x != 0) isWalkingHorizontal = true;
+                else isWalkingHorizontal = false;
+
+                //vertical movement animations
+                if (moveValue.y != 0) isWalkingVertical = true;
+                else isWalkingVertical = false;
             }
-            //resets backward animation
-            else anim.type.facing.backward = false;
 
-            if (Input.GetKey(KeyCode.DownArrow)) {
-                anim.type.facing.ForceFacing("forward");
-                currentObject = bottomObject;
-                Crying();
+            if (!aquireItem) {
+                //facing animations
+                if (Input.GetKey(KeyCode.UpArrow)) {
+                    anim.type.facing.ForceFacing("backward");
+                    currentObject = topObject;
+                    Crying();
+                }
+                //resets backward animation
+                else anim.type.facing.backward = false;
+
+                if (Input.GetKey(KeyCode.DownArrow)) {
+                    anim.type.facing.ForceFacing("forward");
+                    currentObject = bottomObject;
+                    Crying();
+                }
+                //resets forward animation
+                else anim.type.facing.forward = false;
+
+                if (Input.GetKey(KeyCode.LeftArrow)) {
+                    anim.type.facing.ForceFacing("left");
+                    currentObject = leftObject;
+                    Crying();
+                }
+                //resets left animation
+                else anim.type.facing.left = false;
+
+                if (Input.GetKey(KeyCode.RightArrow)) {
+                    anim.type.facing.ForceFacing("right");
+                    currentObject = rightObject;
+                    Crying();
+                }
+                //resets forward animation
+                else anim.type.facing.right = false;
             }
-            //resets forward animation
-            else anim.type.facing.forward = false;
 
-            if (Input.GetKey(KeyCode.LeftArrow)) {
-                anim.type.facing.ForceFacing("left");
-                currentObject = leftObject;
-                Crying();
+            //item aquired animation
+            if (Input.GetKeyDown(KeyCode.Space)) {
+                aquireItem = true;
+                Invoke("ItemAquired", 3.0f);
             }
-            //resets left animation
-            else anim.type.facing.left = false;
 
-            if (Input.GetKey(KeyCode.RightArrow)) {
-                anim.type.facing.ForceFacing("right");
-                currentObject = rightObject;
-                Crying();
+            //Powerup Activation
+            if (Input.GetKeyDown(KeyCode.LeftShift)) {
+                Invincibility.remaingDuration = 7.0f;
+                anim.type.invincible = true;
             }
-            //resets forward animation
-            else anim.type.facing.right = false;
         }
-       
-        //item aquired animation
-        if (Input.GetKeyDown(KeyCode.Space)) {
-            aquireItem = true;
-            Invoke("ItemAquired", 3.0f);
-        }
-
-        //Powerup Activation
-        if (Input.GetKeyDown(KeyCode.LeftShift)) {
-            Invincibility.remaingDuration = 7.0f;
-            anim.type.invincible = true;
-        }
+        else moveValue = new Vector2(0,0);
     }
 
     //public void SaveGame() {

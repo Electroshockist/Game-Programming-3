@@ -27,12 +27,17 @@ public class AnimationHandler : MonoBehaviour {
     void Update () {
         SetSurrogates();
 
-        if (type.humanoid) {
-            type.isHumanoid();
-        }
-            
-        if (type.player) {
-            type.isPlayer();
+        if (GameManager.paused) type.bodyAnim.speed = 0;
+        else {
+            type.bodyAnim.speed = 1;
+
+            if (type.humanoid) {
+                type.isHumanoid();
+            }
+
+            if (type.player) {
+                type.isPlayer();
+            }
         }
     }
 }
@@ -153,14 +158,12 @@ public class BodyType {
 
     public void isHumanoid() {
         //if you are not pressing a firing button, face foreward and reset animations
-        if (facing.AllFalse() && invincibleTime <= 0 && !bodyAnim.GetBool("Item Aquire")) {
-            Debug.Log("test");
+        if (facing.AllFalse() && !bodyAnim.GetBool("Item Aquire")) {
             facing.forward = true;
 
             crying = false;
             headSprite.flipX = false;
         }
-        Debug.Log(invincible);
 
         if (invincible) {
             Invincibility();
