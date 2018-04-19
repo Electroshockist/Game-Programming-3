@@ -1038,12 +1038,17 @@ MonoBehaviour:
   baseSpeed: 0
   speed: 0
   health: 0
-  projectilePrefab: {fileID: 114633903563757098, guid: 736e08648293c2a48b4cb4b8b09a2ad3,
-    type: 2}
-  projectileSpawn: {fileID: 0}
   projectileSpeed: 0
   shotSpeed: 0
+  projectilePrefab: {fileID: 114633903563757098, guid: 736e08648293c2a48b4cb4b8b09a2ad3,
+    type: 2}
   Tear: {fileID: 0}
+  cryTime: 0
+  attackSpeed: 0
+  tearDelay: 0
+  tears: 0
+  damage: 0
+  damageMultiplier: 0
 --- !u!50 &510749563
 Rigidbody2D:
   serializedVersion: 4
@@ -1302,7 +1307,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 662453322}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -13, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1532405808}

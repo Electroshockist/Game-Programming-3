@@ -16,7 +16,7 @@ public class Player : Entity {
     //--------------------------Surrogate Variables--------------------------//
     // for animationHandler(only used to clean code)
 
-    bool aquireItem, isWalkingVertical, isWalkingHorizontal;
+    bool aquireItem, isWalkingHorizontal;
 
    void SetSurrogates() {
         anim.type.crying = crying;
@@ -163,17 +163,16 @@ public class Player : Entity {
             if (!aquireItem) {
 
                 //flips body if moving left
-                if (moveValue.x > 0) anim.type.moving.ForceFacing("left");
-                else if (moveValue.x < 0) anim.type.moving.ForceFacing("right");
-                else anim.type.moving.ForceFacing("none");
-
-                //horizontal movement animations
-                if (moveValue.x != 0) isWalkingHorizontal = true;
-                else isWalkingHorizontal = false;
+                if (moveValue.x > 0) anim.type.moving.ForceFacing("right");
+                else if (moveValue.x < 0) anim.type.moving.ForceFacing("left");
 
                 //vertical movement animations
-                if (moveValue.y != 0) isWalkingVertical = true;
-                else isWalkingVertical = false;
+                if (moveValue.y < 0) anim.type.moving.ForceFacing("forward");
+                else if (moveValue.y > 0) anim.type.moving.ForceFacing("backward");
+
+                //if not moving
+                if (moveValue.x == 0 && moveValue.y == 0) anim.type.moving.ForceFacing("none");
+
 
                 //facing animations
                 if (Input.GetKey(KeyCode.UpArrow)) {
