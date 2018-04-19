@@ -18,27 +18,22 @@ public class Player : Entity {
 
     bool aquireItem, isWalkingVertical, isWalkingHorizontal;
 
-    GameObject bodyObject, headObject;
-    
-    void SetSurrogates() {
+   void SetSurrogates() {
         anim.type.crying = crying;
-        anim.type.bodyAnim.SetBool("Item Aquire", aquireItem);
-        anim.type.bodyAnim.SetBool("isWalkingVertical", isWalkingVertical);
-        anim.type.bodyAnim.SetBool("isWalkingHorizontal", isWalkingHorizontal);
 
         projectilePrefab.speed = projectileSpeed;
+
+        anim.type.aquireItem = aquireItem;
     }
 
     //------------------------------Tear Stuff------------------------------//
     Projectile projectile;
 
-    public Projectile projectilePrefab;
-    public Transform projectileSpawn;
     public float projectileSpeed, shotSpeed;
+    public Projectile projectilePrefab;
+    Transform projectileSpawn, currentEye;
 
     public AudioClip Tear;
-
-    Transform leftEye, rightEye, currentEye;
 
     int currentEyeInt = 0;
 
@@ -48,7 +43,7 @@ public class Player : Entity {
     bool canCry = true;
 
     //tear metadata
-    float cryTime, attackSpeed, tearDelay, tears, damage, damageMultiplier;
+    public float cryTime, attackSpeed, tearDelay, tears, damage, damageMultiplier;
 
     //runs when attacking
     void Crying() {
@@ -61,11 +56,9 @@ public class Player : Entity {
         }
     }
     //delay between tears
-    void Waiting() {
-        crying = false;
-    }
+    void Waiting() {crying = false;}
 
-    void SetCanCry() { canCry = true; }
+    void SetCanCry() {canCry = true;}
 
     //deals with projectile related stuff
     void ProjectileManager() {
@@ -105,9 +98,7 @@ public class Player : Entity {
     }
 
     //-------------Effect Enders-------------//
-    void ItemAquired() {
-        aquireItem = false;
-    }
+    void ItemAquired() { aquireItem = false; }
 
     // Use this for initialization
     void Start () {
@@ -170,9 +161,11 @@ public class Player : Entity {
 
             //checks if you're picking up an item
             if (!aquireItem) {
+
                 //flips body if moving left
-                if (moveValue.x >= 0) anim.type.bodySprite.flipX = false;
-                else if (moveValue.x < 0) anim.type.bodySprite.flipX = true;
+                if (moveValue.x > 0) anim.type.moving.ForceFacing("left");
+                else if (moveValue.x < 0) anim.type.moving.ForceFacing("right");
+                else anim.type.moving.ForceFacing("none");
 
                 //horizontal movement animations
                 if (moveValue.x != 0) isWalkingHorizontal = true;
@@ -181,9 +174,7 @@ public class Player : Entity {
                 //vertical movement animations
                 if (moveValue.y != 0) isWalkingVertical = true;
                 else isWalkingVertical = false;
-            }
 
-            if (!aquireItem) {
                 //facing animations
                 if (Input.GetKey(KeyCode.UpArrow)) {
                     anim.type.facing.ForceFacing("backward");

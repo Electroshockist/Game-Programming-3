@@ -10,6 +10,8 @@ public class PauseMenu : MonoBehaviour {
 
     int selection = 0;
 
+    bool select;
+
 	// Use this for initialization
 	void Start () {
 		
@@ -23,6 +25,9 @@ public class PauseMenu : MonoBehaviour {
             if (Input.GetKeyDown(KeyCode.UpArrow)) selection--;
             if (Input.GetKeyDown(KeyCode.DownArrow)) selection++;
 
+            if (Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.Space)) select = true;
+            else select = false;
+
             if (selection > 2) selection = 0;
             if (selection < 0) selection = 2;
 
@@ -32,6 +37,7 @@ public class PauseMenu : MonoBehaviour {
                     break;
                 case 1:
                     selector.position = resume.position;
+                    if (select) GameManager.paused = false;
                     break;
                 case 2:
                     selector.position = exit.position;

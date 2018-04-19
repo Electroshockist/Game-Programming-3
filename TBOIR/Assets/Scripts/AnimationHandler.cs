@@ -111,7 +111,7 @@ public class BodyType {
     public bool humanoid, player;
    
     //[HideInInspector]
-    public bool crying;
+    public bool crying, aquireItem;
 
     //decides whether to use facing direction or moving direction
     public ControlType facing = new ControlType();
@@ -123,11 +123,12 @@ public class BodyType {
     float animationTime = 0;
 
     void Invincibility() {
-        float frametime = 0.5f;
+        float frametime = 0.05f;
 
         if (animationTime < frametime * 6) {
-            animationTime = 0;
+            //animationTime = 0;
             Debug.Log(frametime * 5);
+            Debug.Log(animationTime);
 
         }
         else if (animationTime < frametime * 5) {
@@ -157,9 +158,33 @@ public class BodyType {
     public void isPlayer() {humanoid = true;}
 
     public void isHumanoid() {
+
+        Debug.Log("Forward: " + moving.forward);
+        Debug.Log("Backward: " + moving.backward);
+        Debug.Log("Left: " + moving.left);
+        Debug.Log("Right: " + moving.right);
+
+        //if the player has aquired an item
+        bodyAnim.SetBool("Item Aquire", aquireItem);
+
+        //if moving vertically
+        if (moving.forward || moving.backward) bodyAnim.SetBool("isWalkingVertical", true);
+        else bodyAnim.SetBool("isWalkingVertical", false);
+
+        //if moving horizontally
+        if (moving.left || moving.right) {
+            bodyAnim.SetBool("isWalkingHorizontal", true);
+            //if moving left
+            if (moving.left) bodySprite.flipX = true;
+        }
+        else {
+            bodyAnim.SetBool("isWalkingHorizontal", false);
+            bodySprite.flipX = false;
+        }
+
         //if you are not pressing a firing button, face foreward and reset animations
         if (facing.AllFalse() && !bodyAnim.GetBool("Item Aquire")) {
-            facing.forward = true;
+            facing = moving;
 
             crying = false;
             headSprite.flipX = false;
