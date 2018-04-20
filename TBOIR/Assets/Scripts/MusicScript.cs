@@ -8,7 +8,7 @@ public class MusicScript : MonoBehaviour {
 
     AudioSource music;
 
-    bool swappedToLoop = false;
+    bool swappedToLoop, muted = false;
 
     MusicGrouper groupedMusic;
     float timer = 0;
@@ -22,13 +22,17 @@ public class MusicScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        timer += Time.deltaTime;
+        music.mute = muted;
+        Debug.Log(swappedToLoop);
         if(timer >= groupedMusic.intro.length && !swappedToLoop) {
             music.clip = groupedMusic.loop;
             music.Play();
             swappedToLoop = true;
         }
-	}
+        else timer += Time.deltaTime;
+
+        if (Input.GetKeyDown(KeyCode.M))  muted = !muted;
+    }
 }
 
 class MusicGrouper {

@@ -15,7 +15,7 @@ TextureImporter:
     21300016: pausescreen_8
     21300018: pausescreen_9
     21300020: pausescreen_10
-    21300022: Hard Mod Indicator
+    21300022: Hard Mode Indicator
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -246,7 +246,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Hard Mod Indicator
+      name: Hard Mode Indicator
       rect:
         serializedVersion: 2
         x: 348
