@@ -26,18 +26,14 @@ public class AnimationHandler : MonoBehaviour {
     // Update is called once per frame
     void Update () {
         SetSurrogates();
+        type.bodyAnim.speed = 1;
 
-        if (GameManager.paused) type.bodyAnim.speed = 0;
-        else {
-            type.bodyAnim.speed = 1;
+        if (type.humanoid) {
+            type.isHumanoid();
+        }
 
-            if (type.humanoid) {
-                type.isHumanoid();
-            }
-
-            if (type.player) {
-                type.isPlayer();
-            }
+        if (type.player) {
+            type.isPlayer();
         }
     }
 }

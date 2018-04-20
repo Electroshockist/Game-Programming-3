@@ -3,7 +3,11 @@ guid: 157c19fbafe122c43a0f7587bb549b9c
 timeCreated: 1524055767
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Gamma
+    21300002: Pop-ups
+    21300004: optionsextra_2
+    21300006: Controls
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -78,7 +82,63 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Gamma
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 108
+        width: 55
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pop-ups
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 81
+        width: 65
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: optionsextra_2
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 81
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Controls
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 7
+        width: 80
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
     outline: []
     physicsShape: []
   spritePackingTag: 

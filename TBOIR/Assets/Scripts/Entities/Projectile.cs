@@ -12,7 +12,7 @@ public class Projectile : Entity {
 	}
 
     void Update() {
-        if (GameManager.paused) Body.velocity = new Vector2(0, 0);
+        if (Time.timeScale == 0) Body.velocity = new Vector2(0, 0);
         else Body.velocity = new Vector2(speedx, speedy);
     }
 

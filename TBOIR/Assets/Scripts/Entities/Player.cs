@@ -148,7 +148,7 @@ public class Player : Entity {
         //adds movement to velocity
         Body.velocity = new Vector2(moveValue.x * speed, moveValue.y * speed);
 
-        if (!GameManager.paused) {
+        if (Time.timeScale != 0) {
 
             Invincibility.Update();
 
@@ -220,7 +220,6 @@ public class Player : Entity {
                 anim.type.invincible = true;
             }
         }
-        else moveValue = new Vector2(0,0);
     }
 
     //public void SaveGame() {
