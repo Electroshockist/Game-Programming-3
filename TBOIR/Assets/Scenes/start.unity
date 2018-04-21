@@ -602,7 +602,6 @@ GameObject:
   - component: {fileID: 270768722}
   - component: {fileID: 270768721}
   - component: {fileID: 270768725}
-  - component: {fileID: 270768727}
   - component: {fileID: 270768726}
   m_Layer: 0
   m_Name: Main Camera
@@ -768,86 +767,6 @@ MonoBehaviour:
   sound: []
   basementIntro: {fileID: 8300000, guid: 609be2b949325b24eb91466498feea15, type: 3}
   basementLoop: {fileID: 8300000, guid: c7357574eab90a946a25caab1dfeeb4c, type: 3}
---- !u!82 &270768727
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 270768720}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 1
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 2
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    - serializedVersion: 2
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 2
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 0
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 2
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 0
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 2
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 0
 --- !u!1 &283323726
 GameObject:
   m_ObjectHideFlags: 0
@@ -2247,11 +2166,38 @@ MonoBehaviour:
   resumePos: {fileID: 469021426}
   exitPos: {fileID: 1591407721}
   selectorPos: {fileID: 1079695792}
-  SFXPos: {fileID: 1186586765}
+  sfxPos: {fileID: 1186586765}
   MusicPos: {fileID: 1752817897}
   MapOpacityPos: {fileID: 804913178}
   FullscreenPos: {fileID: 764308562}
   FilterPos: {fileID: 1064448921}
+  valueTicks1:
+  - {fileID: 21300040, guid: 675b39fb0129e6c419c0f54d30524c02, type: 3}
+  - {fileID: 21300036, guid: 675b39fb0129e6c419c0f54d30524c02, type: 3}
+  - {fileID: 21300034, guid: 675b39fb0129e6c419c0f54d30524c02, type: 3}
+  - {fileID: 21300030, guid: 675b39fb0129e6c419c0f54d30524c02, type: 3}
+  - {fileID: 21300026, guid: 675b39fb0129e6c419c0f54d30524c02, type: 3}
+  - {fileID: 21300024, guid: 675b39fb0129e6c419c0f54d30524c02, type: 3}
+  - {fileID: 21300020, guid: 675b39fb0129e6c419c0f54d30524c02, type: 3}
+  - {fileID: 21300016, guid: 675b39fb0129e6c419c0f54d30524c02, type: 3}
+  - {fileID: 21300012, guid: 675b39fb0129e6c419c0f54d30524c02, type: 3}
+  - {fileID: 21300008, guid: 675b39fb0129e6c419c0f54d30524c02, type: 3}
+  - {fileID: 21300006, guid: 675b39fb0129e6c419c0f54d30524c02, type: 3}
+  valueTicks2:
+  - {fileID: 21300054, guid: 675b39fb0129e6c419c0f54d30524c02, type: 3}
+  - {fileID: 21300060, guid: 675b39fb0129e6c419c0f54d30524c02, type: 3}
+  - {fileID: 21300050, guid: 675b39fb0129e6c419c0f54d30524c02, type: 3}
+  - {fileID: 21300056, guid: 675b39fb0129e6c419c0f54d30524c02, type: 3}
+  - {fileID: 21300062, guid: 675b39fb0129e6c419c0f54d30524c02, type: 3}
+  - {fileID: 21300064, guid: 675b39fb0129e6c419c0f54d30524c02, type: 3}
+  - {fileID: 21300058, guid: 675b39fb0129e6c419c0f54d30524c02, type: 3}
+  - {fileID: 21300052, guid: 675b39fb0129e6c419c0f54d30524c02, type: 3}
+  - {fileID: 21300048, guid: 675b39fb0129e6c419c0f54d30524c02, type: 3}
+  - {fileID: 21300046, guid: 675b39fb0129e6c419c0f54d30524c02, type: 3}
+  - {fileID: 21300066, guid: 675b39fb0129e6c419c0f54d30524c02, type: 3}
+  sfxVal: {fileID: 1486851248}
+  musicVal: {fileID: 779245650}
+  mapOpacityVal: {fileID: 1245472305}
 --- !u!1 &966705746
 GameObject:
   m_ObjectHideFlags: 0

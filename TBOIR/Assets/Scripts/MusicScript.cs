@@ -6,7 +6,7 @@ public class MusicScript : MonoBehaviour {
     public AudioSource[] sound;
     public AudioClip basementIntro, basementLoop;
 
-    AudioSource music;
+    public static AudioSource music;
 
     bool swappedToLoop, muted = false;
 
@@ -23,7 +23,8 @@ public class MusicScript : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         music.mute = muted;
-        Debug.Log(swappedToLoop);
+
+        //swaps music from intro to main loop after intro is done
         if(timer >= groupedMusic.intro.length && !swappedToLoop) {
             music.clip = groupedMusic.loop;
             music.Play();
@@ -31,6 +32,7 @@ public class MusicScript : MonoBehaviour {
         }
         else timer += Time.deltaTime;
 
+        //toggles mute
         if (Input.GetKeyDown(KeyCode.M))  muted = !muted;
     }
 }
