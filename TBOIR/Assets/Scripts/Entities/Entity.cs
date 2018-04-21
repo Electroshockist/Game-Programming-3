@@ -8,6 +8,8 @@ using UnityEngine;
 public class Entity : MonoBehaviour {
     [HideInInspector]
     public Rigidbody2D Body;
+
+    [HideInInspector]
     public AnimationHandler anim;
     public float baseSpeed,speed;
 

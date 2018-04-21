@@ -8,6 +8,8 @@ public class AnimationHandler : MonoBehaviour {
 
     public Sprite Forward, Backward, Horizontal, ForwardCrying, BackwardCrying, HorizontalCrying, ItemAquire;
 
+    public Sprite[,] defaultHeadSprites = new Sprite[3,3];
+
     public Sprite[] Invincible;
 
     //head and body object
@@ -96,6 +98,7 @@ public class BodyType {
     public SpriteRenderer headSprite, bodySprite;
     //TODO create sub classes
     public Sprite Forward, Backward, Horizontal, ForwardCrying, BackwardCrying, HorizontalCrying, ItemAquire;
+    public Sprite[][] defaultHeadSprites;
     public Sprite[] Invincible;
 
     //head and body object
