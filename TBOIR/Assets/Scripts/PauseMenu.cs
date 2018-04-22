@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class PauseMenu : MonoBehaviour {
 
@@ -102,6 +103,12 @@ public class PauseMenu : MonoBehaviour {
             case 2:
                 //does nothing right now
                 selectorPos.position = exitPos.position;
+                if (select) {
+                    Time.timeScale = 1;
+                    GameManager.currentscene = GameManager.mainmenu;
+                    SceneManager.LoadScene(GameManager.currentscene, LoadSceneMode.Single);
+
+                }
                 break;
             default:
                 Debug.LogError("Something went wrong selecting pause menu objects.");
