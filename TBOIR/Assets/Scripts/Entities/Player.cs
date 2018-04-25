@@ -6,9 +6,6 @@ using UnityEngine;
 
 public class Player : Entity {
     Vector2 moveValue = new Vector2();
-    
-    public int health;
-
     Transform currentObject, topObject, bottomObject, leftObject, rightObject;
 
     Effect Invincibility = new Effect(0);
@@ -138,17 +135,23 @@ public class Player : Entity {
         //TODO: tun this into a function
         //sets player bodytype
         anim.type.player = true;
+
+        Debug.Log(health);
     }
 
 	
 	// Update is called once per frame
 	void Update () {
         SetSurrogates();
+        moveValue.Normalize();
 
+        
         //adds movement to velocity
         Body.velocity = new Vector2(moveValue.x * speed, moveValue.y * speed);
 
-        if (Time.timeScale != 0) {
+        if (dead()) moveValue = new Vector2(0,0);
+
+        if (Time.timeScale != 0 && !dead()) {
 
             Invincibility.Update();
 
@@ -219,6 +222,13 @@ public class Player : Entity {
                 Invincibility.remaingDuration = 7.0f;
                 anim.type.invincible = true;
             }
+        }
+    }
+
+    void OnCollisionEnter2D(Collision2D collision) {
+        if (collision.gameObject.tag == "Enemy") {
+            Damage(1);
+            Debug.Log(health);
         }
     }
 

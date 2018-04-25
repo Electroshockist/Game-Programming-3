@@ -24,7 +24,6 @@ public class GameManager : MonoBehaviour {
             if (Input.GetKey(KeyCode.Space) || Input.GetKey(KeyCode.Return)) {
                 currentscene = level;
                 SceneManager.LoadScene(level, LoadSceneMode.Single);
-                Debug.Log(currentscene);
             }
             //Quit(TODO)
             if (Input.GetKeyDown(KeyCode.Escape) && currentscene == mainmenu) Debug.Log("Quit");

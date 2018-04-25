@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class MusicScript : MonoBehaviour {
-    public AudioSource[] sound;
     public AudioClip basementIntro, basementLoop;
 
     public static AudioSource music;
@@ -11,30 +10,34 @@ public class MusicScript : MonoBehaviour {
     bool swappedToLoop, muted = false;
 
     MusicGrouper groupedMusic;
-    float timer = 0;
+    float totalTimesamples = 0;
 
 	// Use this for initialization
 	void Start () {
-        sound = GetComponents<AudioSource>();
-        music = sound[0];
+        music = transform.GetChild(1).GetComponent<AudioSource>();
         groupedMusic = new MusicGrouper(basementIntro,basementLoop);
+        music.clip = groupedMusic.intro;
+        music.Play();
+
+        Debug.Log(groupedMusic.intro.samples);
     }
 	
 	// Update is called once per frame
-	void Update () {
+	void Update () {        
         music.mute = muted;
 
-        //swaps music from intro to main loop after intro is done
-        if(timer >= groupedMusic.intro.length && !swappedToLoop) {
+        if (groupedMusic.intro.samples >= groupedMusic.intro.samples && !swappedToLoop) {
             music.clip = groupedMusic.loop;
             music.Play();
             swappedToLoop = true;
         }
-        else timer += Time.deltaTime;
+        else if (!swappedToLoop) totalTimesamples += groupedMusic.intro.samples;
+
 
         //toggles mute
         if (Input.GetKeyDown(KeyCode.M))  muted = !muted;
     }
+
 }
 
 class MusicGrouper {

@@ -284,6 +284,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\AnimationHandler.cs" />
     <Compile Include="Assets\Scripts\Entities\Entity.cs" />
+    <Compile Include="Assets\Scripts\Entities\Fly.cs" />
     <Compile Include="Assets\Scripts\Entities\Player.cs" />
     <Compile Include="Assets\Scripts\Entities\Projectile.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />

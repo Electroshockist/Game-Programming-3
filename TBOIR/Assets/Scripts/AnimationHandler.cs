@@ -6,7 +6,7 @@ public class AnimationHandler : MonoBehaviour {
     //checks body type for animations
     public BodyType type = new BodyType();
 
-    public Sprite Forward, Backward, Horizontal, ForwardCrying, BackwardCrying, HorizontalCrying, ItemAquire;
+    public Sprite Forward, Backward, Horizontal, ForwardCrying, BackwardCrying, HorizontalCrying, ItemAquire, Dead;
 
     public Sprite[,] defaultHeadSprites = new Sprite[3,3];
 
@@ -24,6 +24,7 @@ public class AnimationHandler : MonoBehaviour {
         type.HorizontalCrying = HorizontalCrying;
         type.ItemAquire = ItemAquire;
         type.Invincible = Invincible;
+        type.Dead = Dead;
     }
     // Update is called once per frame
     void Update () {
@@ -97,7 +98,7 @@ public class ControlType {
 public class BodyType {
     public SpriteRenderer headSprite, bodySprite;
     //TODO create sub classes
-    public Sprite Forward, Backward, Horizontal, ForwardCrying, BackwardCrying, HorizontalCrying, ItemAquire;
+    public Sprite Forward, Backward, Horizontal, ForwardCrying, BackwardCrying, HorizontalCrying, ItemAquire, Dead;
     public Sprite[][] defaultHeadSprites;
     public Sprite[] Invincible;
 
@@ -107,14 +108,13 @@ public class BodyType {
 
     //TODO: add failsafes for multiple bodytypes
     //[hideininspector]
-    public bool humanoid, player, crying, aquireItem;
+    public bool humanoid, player, crying, aquireItem, dead, invincible;
 
     //decides whether to use facing direction or moving direction
     public ControlType facing = new ControlType();
     public ControlType moving = new ControlType();
 
     //TODO: streamline effects
-    public bool invincible;
     float invincibleTime = 7.0f;
     float animationTime = 0;
 
