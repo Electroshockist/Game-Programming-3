@@ -20,7 +20,7 @@ public class Projectile : Entity {
         if(collision.gameObject.tag == "Wall") Destroy(gameObject);
 
         if (collision.gameObject.tag == "Enemy") {
-            collision.gameObject.GetComponent<Entity>().Damage(1);
+            collision.gameObject.GetComponent<Entity>().Damage(damage);
             Destroy(gameObject);
         }
     }

@@ -6,31 +6,41 @@ using UnityEngine;
 
 
 public class Entity : MonoBehaviour {
-    //[HideInInspector]
     public Rigidbody2D Body;
 
     [HideInInspector]
     public AnimationHandler anim;
-    public float baseSpeed,speed;
+    public float baseSpeed, speed, health;
+    public bool canTakeDamage, isPlayer;
 
-    public int health;
-    
 
     // Use this for initialization
     void Awake () {
         anim = GetComponent<AnimationHandler>();
+        canTakeDamage = true;
         if (baseSpeed <= 0.0f) baseSpeed = 100.0f;
         if (speed <= 0.0f) speed = baseSpeed;
         if (health <= 0) health = 6;
 	}
 
+    void setDamageable() {
+        canTakeDamage = true;
+    }
+
     public bool dead() {
-        if (health == 0) return true;
+        if (health <= 0) return true;
         else return false;        
     }
 
-    public void Damage(int damage) {
-        health -= damage;
+    public void Damage(float damage) {
+        if (canTakeDamage) {
+            health -= damage;
+        }
+
+        if (isPlayer) {
+            canTakeDamage = false;
+            Invoke("setDamageable", 3.0f);
+        }
     }
 }
 

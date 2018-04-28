@@ -6,9 +6,7 @@ public class AnimationHandler : MonoBehaviour {
     //checks body type for animations
     public BodyType type = new BodyType();
 
-    public Sprite Forward, Backward, Horizontal, ForwardCrying, BackwardCrying, HorizontalCrying, ItemAquire, Dead;
-
-    public Sprite[,] defaultHeadSprites = new Sprite[3,3];
+    public Sprite Forward, Backward, Horizontal, ForwardCrying, BackwardCrying, HorizontalCrying, ItemAquire;
 
     public Sprite[] Invincible;
 
@@ -24,7 +22,6 @@ public class AnimationHandler : MonoBehaviour {
         type.HorizontalCrying = HorizontalCrying;
         type.ItemAquire = ItemAquire;
         type.Invincible = Invincible;
-        type.Dead = Dead;
     }
     // Update is called once per frame
     void Update () {
@@ -98,8 +95,7 @@ public class ControlType {
 public class BodyType {
     public SpriteRenderer headSprite, bodySprite;
     //TODO create sub classes
-    public Sprite Forward, Backward, Horizontal, ForwardCrying, BackwardCrying, HorizontalCrying, ItemAquire, Dead;
-    public Sprite[][] defaultHeadSprites;
+    public Sprite Forward, Backward, Horizontal, ForwardCrying, BackwardCrying, HorizontalCrying, ItemAquire;
     public Sprite[] Invincible;
 
     //head and body object
@@ -154,81 +150,84 @@ public class BodyType {
     public void isPlayer() {humanoid = true;}
 
     public void isHumanoid() {
-        //if the player has aquired an item
-        bodyAnim.SetBool("Item Aquire", aquireItem);
 
-        //if moving vertically
-        if (moving.forward || moving.backward) bodyAnim.SetBool("isWalkingVertical", true);
-        else bodyAnim.SetBool("isWalkingVertical", false);
-
-        //if moving horizontally
-        if (moving.left || moving.right) {
-            bodyAnim.SetBool("isWalkingHorizontal", true);
-            //if moving left
-            if (moving.left) bodySprite.flipX = true;
-            else bodySprite.flipX = false;
-        }
+        if (dead) bodyAnim.SetBool("Dead", true);
         else {
-            bodyAnim.SetBool("isWalkingHorizontal", false);
-            bodySprite.flipX = false;
-        }
+            //if the player has aquired an item
+            bodyAnim.SetBool("Item Aquire", aquireItem);
+            //if moving vertically
+            if (moving.forward || moving.backward) bodyAnim.SetBool("isWalkingVertical", true);
+            else bodyAnim.SetBool("isWalkingVertical", false);
 
-        //if you are not pressing a firing button, face foreward and reset animations
-        if (!bodyAnim.GetBool("Item Aquire")) {
-            if (facing.AllFalse()) {
-                if (moving.AllFalse()) {
-                    moving.ForceFacing("forward");
-                    facing.ForceFacing("forward");
-                }
-                facing.forward = moving.forward;
-                facing.backward = moving.backward;
-                facing.left = moving.left;
-                facing.right = moving.right;
-
-                crying = false;
-                headSprite.flipX = false;
-            }
-        }
-
-        if (invincible) {
-            Invincibility();
-            invincibleTime -= Time.deltaTime;
-            animationTime += Time.deltaTime;
-            if (invincibleTime <= 0) {
-                invincible = false;
-                invincibleTime = 0.7f;
-                animationTime = 0;
-            }
-        }
-        //if you've aquired an item
-        else if (bodyAnim.GetBool("Item Aquire")) {
-            bodySprite.sprite = ItemAquire;
-            headSprite.enabled = false;
-        }
-        else {
-            headSprite.enabled = true;
-            //checks if crying
-            if (crying) {
-               //checks facing directions
-                if (facing.forward) headSprite.sprite = ForwardCrying;
-                if (facing.backward) headSprite.sprite = BackwardCrying;
-                if (facing.right) headSprite.sprite = HorizontalCrying;
-                if (facing.left) {
-                    headSprite.sprite = HorizontalCrying;
-                    headSprite.flipX = true;
-                }
-                else headSprite.flipX = false;
+            //if moving horizontally
+            if (moving.left || moving.right) {
+                bodyAnim.SetBool("isWalkingHorizontal", true);
+                //if moving left
+                if (moving.left) bodySprite.flipX = true;
+                else bodySprite.flipX = false;
             }
             else {
-                //checks facing directions if not crying
-                if (facing.forward) headSprite.sprite = Forward;
-                if (facing.backward) headSprite.sprite = Backward;
-                if (facing.right) headSprite.sprite = Horizontal;
-                if (facing.left) {
-                    headSprite.sprite = Horizontal;
-                    headSprite.flipX = true;
+                bodyAnim.SetBool("isWalkingHorizontal", false);
+                bodySprite.flipX = false;
+            }
+
+            //if you are not pressing a firing button, face foreward and reset animations
+            if (!bodyAnim.GetBool("Item Aquire")) {
+                if (facing.AllFalse()) {
+                    if (moving.AllFalse()) {
+                        moving.ForceFacing("forward");
+                        facing.ForceFacing("forward");
+                    }
+                    facing.forward = moving.forward;
+                    facing.backward = moving.backward;
+                    facing.left = moving.left;
+                    facing.right = moving.right;
+
+                    crying = false;
+                    headSprite.flipX = false;
                 }
-                else headSprite.flipX = false;
+            }
+
+            if (invincible) {
+                Invincibility();
+                invincibleTime -= Time.deltaTime;
+                animationTime += Time.deltaTime;
+                if (invincibleTime <= 0) {
+                    invincible = false;
+                    invincibleTime = 0.7f;
+                    animationTime = 0;
+                }
+            }
+            //if you've aquired an item
+            else if (bodyAnim.GetBool("Item Aquire")) {
+                bodySprite.sprite = ItemAquire;
+                headSprite.enabled = false;
+            }
+            else {
+                headSprite.enabled = true;
+                //checks if crying
+                if (crying) {
+                    //checks facing directions
+                    if (facing.forward) headSprite.sprite = ForwardCrying;
+                    if (facing.backward) headSprite.sprite = BackwardCrying;
+                    if (facing.right) headSprite.sprite = HorizontalCrying;
+                    if (facing.left) {
+                        headSprite.sprite = HorizontalCrying;
+                        headSprite.flipX = true;
+                    }
+                    else headSprite.flipX = false;
+                }
+                else {
+                    //checks facing directions if not crying
+                    if (facing.forward) headSprite.sprite = Forward;
+                    if (facing.backward) headSprite.sprite = Backward;
+                    if (facing.right) headSprite.sprite = Horizontal;
+                    if (facing.left) {
+                        headSprite.sprite = Horizontal;
+                        headSprite.flipX = true;
+                    }
+                    else headSprite.flipX = false;
+                }
             }
         }
     }

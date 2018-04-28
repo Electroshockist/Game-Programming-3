@@ -10,17 +10,34 @@ public class Player : Entity {
 
     Effect Invincibility = new Effect(0);
 
+    void spriteRenderorOff() {
+        anim.type.bodySprite.enabled = false;
+        anim.type.headSprite.enabled = false;
+        if (!canTakeDamage) {
+            Invoke("spriteEditorOn", 1.0f);
+        }
+    }
+    void spriteRenderorOn() {
+        anim.type.bodySprite.enabled = true;
+        anim.type.headSprite.enabled = true;
+        if (!canTakeDamage) {
+            Invoke("spriteEditorOn", 1.0f);
+        }
+    }
+
     //--------------------------Surrogate Variables--------------------------//
     // for animationHandler(only used to clean code)
 
     bool aquireItem, isWalkingHorizontal;
 
-   void SetSurrogates() {
+    void SetSurrogates() {
         anim.type.crying = crying;
 
         projectilePrefab.speed = projectileSpeed;
 
         anim.type.aquireItem = aquireItem;
+
+        anim.type.dead = dead();
     }
 
     //------------------------------Tear Stuff------------------------------//
@@ -30,7 +47,8 @@ public class Player : Entity {
     public Projectile projectilePrefab;
     Transform projectileSpawn, currentEye;
 
-    public AudioClip Tear;
+    public AudioClip[] tearSound;
+    public AudioSource sound;
 
     int currentEyeInt = 0;
 
@@ -92,6 +110,7 @@ public class Player : Entity {
 
         projectileSpawn = currentEye;
         projectile = Instantiate(projectilePrefab, projectileSpawn.position, projectileSpawn.rotation);
+        sound.PlayOneShot(tearSound[(int)Mathf.Round(Random.Range(0.0f, 1.0f))]);
     }
 
     //-------------Effect Enders-------------//
@@ -99,6 +118,9 @@ public class Player : Entity {
 
     // Use this for initialization
     void Start () {
+        isPlayer = true;
+
+        sound = gameObject.GetComponent<AudioSource>();
 
         //init head object
         anim.type.headObject = GameObject.Find("Head");
@@ -132,20 +154,19 @@ public class Player : Entity {
 
         if (damageMultiplier <= 0) damageMultiplier = 1.0f;
 
-        //TODO: tun this into a function
         //sets player bodytype
         anim.type.player = true;
-
-        Debug.Log(health);
     }
-
 	
-	// Update is called once per frame
+	//Update is called once per frame
 	void Update () {
         SetSurrogates();
+        
+        if (!canTakeDamage) spriteRenderorOff();
+        else spriteRenderorOn();
+
         moveValue.Normalize();
 
-        
         //adds movement to velocity
         Body.velocity = new Vector2(moveValue.x * speed, moveValue.y * speed);
 

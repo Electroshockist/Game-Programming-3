@@ -32,7 +32,7 @@ TextureImporter:
     21300050: Isaac Walk Horizontal 9
     21300052: Isaac Walk Horizontal 10
     21300054: Isaac Teleport 1
-    21300056: character_001_isaac_28
+    21300056: Isaac Surprised
     21300058: Isaac Thumbs_Up
     21300060: Isaac Good_Effect
     21300062: Isaac Dead
@@ -523,7 +523,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: character_001_isaac_28
+      name: Isaac Surprised
       rect:
         serializedVersion: 2
         x: 18
@@ -572,8 +572,8 @@ TextureImporter:
         y: 131
         width: 36
         height: 27
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.04824278, y: 0.34864977}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -614,8 +614,8 @@ TextureImporter:
         y: 73
         width: 28
         height: 32
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.3, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

@@ -15,11 +15,9 @@ public class MusicScript : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         music = transform.GetChild(1).GetComponent<AudioSource>();
-        groupedMusic = new MusicGrouper(basementIntro,basementLoop);
+        groupedMusic = new MusicGrouper(basementIntro, basementLoop);
         music.clip = groupedMusic.intro;
         music.Play();
-
-        Debug.Log(groupedMusic.intro.samples);
     }
 	
 	// Update is called once per frame
