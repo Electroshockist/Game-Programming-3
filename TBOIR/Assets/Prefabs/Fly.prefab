@@ -39,7 +39,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1790642287341710}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 102, y: 49, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -193,7 +193,14 @@ MonoBehaviour:
   baseSpeed: 40
   speed: 0
   health: 5
-  FlySound: {fileID: 0}
+  canTakeDamage: 0
+  isPlayer: 0
+  playedHurtSound: 0
+  playedDeadSound: 0
+  deadSound:
+  - {fileID: 8300000, guid: 5ae99ee5a92ede840a3e5211cc1552ab, type: 3}
+  - {fileID: 8300000, guid: 0d203026bf6b60d4c823f29fbdd8f95c, type: 3}
+  - {fileID: 8300000, guid: 23d1811955a217343aab095418fbbe2a, type: 3}
 --- !u!212 &212051273533528782
 SpriteRenderer:
   m_ObjectHideFlags: 1

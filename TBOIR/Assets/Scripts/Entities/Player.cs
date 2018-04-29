@@ -10,20 +10,8 @@ public class Player : Entity {
 
     Effect Invincibility = new Effect(0);
 
-    void spriteRenderorOff() {
-        anim.type.bodySprite.enabled = false;
-        anim.type.headSprite.enabled = false;
-        if (!canTakeDamage) {
-            Invoke("spriteEditorOn", 1.0f);
-        }
-    }
-    void spriteRenderorOn() {
-        anim.type.bodySprite.enabled = true;
-        anim.type.headSprite.enabled = true;
-        if (!canTakeDamage) {
-            Invoke("spriteEditorOn", 1.0f);
-        }
-    }
+    public AudioClip[] tearSound, hurtSound, deadSound;
+    AudioSource sound;
 
     //--------------------------Surrogate Variables--------------------------//
     // for animationHandler(only used to clean code)
@@ -37,6 +25,8 @@ public class Player : Entity {
 
         anim.type.aquireItem = aquireItem;
 
+        anim.type.hurt = playedHurtSound;
+
         anim.type.dead = dead();
     }
 
@@ -46,9 +36,6 @@ public class Player : Entity {
     public float projectileSpeed, shotSpeed;
     public Projectile projectilePrefab;
     Transform projectileSpawn, currentEye;
-
-    public AudioClip[] tearSound;
-    public AudioSource sound;
 
     int currentEyeInt = 0;
 
@@ -110,7 +97,7 @@ public class Player : Entity {
 
         projectileSpawn = currentEye;
         projectile = Instantiate(projectilePrefab, projectileSpawn.position, projectileSpawn.rotation);
-        sound.PlayOneShot(tearSound[(int)Mathf.Round(Random.Range(0.0f, 1.0f))]);
+        sound.PlayOneShot(tearSound[(int)Mathf.Round(Random.Range(0.0f, tearSound.Length - 1))]);
     }
 
     //-------------Effect Enders-------------//
@@ -161,16 +148,27 @@ public class Player : Entity {
 	//Update is called once per frame
 	void Update () {
         SetSurrogates();
-        
-        if (!canTakeDamage) spriteRenderorOff();
-        else spriteRenderorOn();
 
         moveValue.Normalize();
 
         //adds movement to velocity
         Body.velocity = new Vector2(moveValue.x * speed, moveValue.y * speed);
 
-        if (dead()) moveValue = new Vector2(0,0);
+        if (dead()) {
+            moveValue = new Vector2(0, 0);
+            GameManager.dead = true;
+            if (!playedDeadSound) {
+                sound.PlayOneShot(deadSound[(int)Mathf.Round(Random.Range(0.0f, deadSound.Length - 1))]);
+                playedDeadSound = true;
+            }
+        }
+        else if (!canTakeDamage) {
+            if (!playedHurtSound) {
+                sound.PlayOneShot(hurtSound[(int)Mathf.Round(Random.Range(0.0f, hurtSound.Length - 1))]);
+                playedHurtSound = true;
+            }
+        }
+        else playedHurtSound = false;
 
         if (Time.timeScale != 0 && !dead()) {
 
@@ -246,7 +244,7 @@ public class Player : Entity {
         }
     }
 
-    void OnCollisionEnter2D(Collision2D collision) {
+    void OnCollisionStay2D(Collision2D collision) {
         if (collision.gameObject.tag == "Enemy") {
             Damage(1);
             Debug.Log(health);

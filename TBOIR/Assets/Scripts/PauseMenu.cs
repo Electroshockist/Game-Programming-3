@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class PauseMenu : MonoBehaviour {
 
-    public CanvasGroup pauseMenu, optionsMenu;
+    public CanvasGroup pauseMenu, optionsMenu, deathMenu;
 
     public Transform optionsPos, resumePos, exitPos, selectorPos, sfxPos, MusicPos, MapOpacityPos, FullscreenPos, FilterPos;
 
@@ -23,56 +23,64 @@ public class PauseMenu : MonoBehaviour {
 
     bool select;
 
-    int currentMenu, none, main, options;
+    int currentMenu, none, main, options, dead;
 
 	// Use this for initialization
 	void Start () {
         none = 0;
         main = 1;
         options = 2;
+        dead = 3;
 
         currentMenu = none;
     }
 
     // Update is called once per frame
     void Update() {
+        Debug.Log(Time.timeScale);
         //set music volume
         MusicScript.music.volume = (float)musicVol / 10;
-
-        //checks if music is muted
-        if (MusicScript.music.mute) musicVal.sprite = valueTicks1[0];
-        //set textures
-        else musicVal.sprite = valueTicks1[musicVol];
-        sfxVal.sprite = valueTicks1[sfxVol];
-        mapOpacityVal.sprite = valueTicks1[mapOpacity];
-
-        if (Time.timeScale == 0) {
-            //for selecting values
-            if (Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.Space)) select = true;
-            else select = false;
-            //moves seletor
-            if (Input.GetKeyDown(KeyCode.UpArrow)) selection--;
-            if (Input.GetKeyDown(KeyCode.DownArrow)) selection++;
-
-            //checks if current menu is main
-            if (currentMenu == main) {
-                Main();
-            }
-            //checks if current menu is options
-            else if (currentMenu == options) {
-                OptionsMenu();
-            }
-            //sets main to default menu
-            else currentMenu = main;
+        if (GameManager.dead) {
+            currentMenu = dead;
+            DeathMenu();
         }
         else {
-            //disables all menus
-            pauseMenu.alpha = 0;
-            optionsMenu.alpha = 0;
-        }
 
-        //only one tick of selection
-        if (select) select = false;
+            //checks if music is muted
+            if (MusicScript.music.mute) musicVal.sprite = valueTicks1[0];
+            //set textures
+            else musicVal.sprite = valueTicks1[musicVol];
+            sfxVal.sprite = valueTicks1[sfxVol];
+            mapOpacityVal.sprite = valueTicks1[mapOpacity];
+
+            if (Time.timeScale == 0) {
+                //for selecting values
+                if (Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.Space)) select = true;
+                else select = false;
+                //moves seletor
+                if (Input.GetKeyDown(KeyCode.UpArrow)) selection--;
+                if (Input.GetKeyDown(KeyCode.DownArrow)) selection++;
+
+                //checks if current menu is main
+                if (currentMenu == main) {
+                    Main();
+                }
+                //checks if current menu is options
+                else if (currentMenu == options) {
+                    OptionsMenu();
+                }
+                //sets main to default menu
+                else currentMenu = main;
+            }
+            else {
+                //disables all menus
+                pauseMenu.alpha = 0;
+                optionsMenu.alpha = 0;
+            }
+
+            //only one tick of selection
+            if (select) select = false;
+        }
     }
 
     void Main() {
@@ -166,6 +174,31 @@ public class PauseMenu : MonoBehaviour {
             currentMenu = main;
             selection = 0;
         }
+    }
+
+    void DeathMenu() {
+        //enable options menu, disable pause menu
+        pauseMenu.alpha = 0;
+        optionsMenu.alpha = 0;
+        deathMenu.alpha = 1;
+
+        if (Input.GetKeyDown(KeyCode.Escape)) {
+            deathMenu.alpha = 0;
+            Time.timeScale = 1;
+            currentMenu = none;
+            GameManager.dead = false;
+            GameManager.currentscene = GameManager.mainmenu;
+            SceneManager.LoadScene(GameManager.currentscene, LoadSceneMode.Single);
+        }
+        if (Input.GetKeyDown(KeyCode.Space)) {
+            deathMenu.alpha = 0;
+            Time.timeScale = 1;
+            currentMenu = none;
+            GameManager.dead = false;
+            GameManager.currentscene = GameManager.level;
+            SceneManager.LoadScene(GameManager.currentscene, LoadSceneMode.Single);
+        }
+
     }
 
     void Unpause() {

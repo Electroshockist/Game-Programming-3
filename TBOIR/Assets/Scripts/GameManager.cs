@@ -10,6 +10,8 @@ public class GameManager : MonoBehaviour {
 
     private static bool created = false;
 
+    public static bool dead = false;
+
     void Awake() {
         currentscene = mainmenu;
         if (!created) {

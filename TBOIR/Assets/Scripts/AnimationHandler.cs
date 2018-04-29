@@ -104,7 +104,7 @@ public class BodyType {
 
     //TODO: add failsafes for multiple bodytypes
     //[hideininspector]
-    public bool humanoid, player, crying, aquireItem, dead, invincible;
+    public bool humanoid, player, crying, aquireItem, dead, invincible, hurt;
 
     //decides whether to use facing direction or moving direction
     public ControlType facing = new ControlType();
@@ -151,8 +151,18 @@ public class BodyType {
 
     public void isHumanoid() {
 
-        if (dead) bodyAnim.SetBool("Dead", true);
+        if (dead) {
+            bodySprite.flipX = false;
+            bodyAnim.SetBool("Dead", true);
+            headSprite.enabled = false;
+        }
+        else if (hurt) {
+            bodySprite.flipX = false;
+            bodyAnim.SetBool("Hurt", true);
+            headSprite.enabled = false;
+        }
         else {
+            bodyAnim.SetBool("Hurt", false);
             //if the player has aquired an item
             bodyAnim.SetBool("Item Aquire", aquireItem);
             //if moving vertically

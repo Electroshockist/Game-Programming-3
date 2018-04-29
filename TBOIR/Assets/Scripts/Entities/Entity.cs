@@ -11,7 +11,7 @@ public class Entity : MonoBehaviour {
     [HideInInspector]
     public AnimationHandler anim;
     public float baseSpeed, speed, health;
-    public bool canTakeDamage, isPlayer;
+    public bool canTakeDamage, isPlayer, playedHurtSound, playedDeadSound;
 
 
     // Use this for initialization
@@ -35,11 +35,11 @@ public class Entity : MonoBehaviour {
     public void Damage(float damage) {
         if (canTakeDamage) {
             health -= damage;
-        }
 
-        if (isPlayer) {
-            canTakeDamage = false;
-            Invoke("setDamageable", 3.0f);
+            if (isPlayer) {
+                canTakeDamage = false;
+                Invoke("setDamageable", 3.0f);
+            }
         }
     }
 }
