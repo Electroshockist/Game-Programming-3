@@ -38,13 +38,13 @@ public class Entity : MonoBehaviour {
 
             if (isPlayer) {
                 canTakeDamage = false;
-                Invoke("setDamageable", 3.0f);
+                Invoke("setDamageable", 1.0f);
             }
         }
     }
 }
 
-//basis for powerup
+//basis for powerup(unused atm)
 public class Effect {
     public int ID;
     public float remaingDuration;

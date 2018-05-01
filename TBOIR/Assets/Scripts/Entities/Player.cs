@@ -7,11 +7,25 @@ using UnityEngine;
 public class Player : Entity {
     Vector2 moveValue = new Vector2();
     Transform currentObject, topObject, bottomObject, leftObject, rightObject;
-
+    public Transform camera1, camera2, mainCamera;
+    
     Effect Invincibility = new Effect(0);
 
     public AudioClip[] tearSound, hurtSound, deadSound;
     AudioSource sound;
+
+    int room = 0;
+
+    void Swapcams() {
+        if (room % 2 == 0) mainCamera.position = camera2.position;
+        else mainCamera.position = camera1.position;
+    }
+
+    public void TeleportTo(Transform emergeTransform) {
+        Swapcams();
+        this.transform.position = emergeTransform.position;
+        room++;
+    }
 
     //--------------------------Surrogate Variables--------------------------//
     // for animationHandler(only used to clean code)
@@ -107,7 +121,7 @@ public class Player : Entity {
     void Start () {
         isPlayer = true;
 
-        sound = gameObject.GetComponent<AudioSource>();
+        sound = GetComponent<AudioSource>();
 
         //init head object
         anim.type.headObject = GameObject.Find("Head");
@@ -147,6 +161,7 @@ public class Player : Entity {
 	
 	//Update is called once per frame
 	void Update () {
+
         SetSurrogates();
 
         moveValue.Normalize();
@@ -245,11 +260,19 @@ public class Player : Entity {
     }
 
     void OnCollisionStay2D(Collision2D collision) {
-        if (collision.gameObject.tag == "Enemy") {
-            Damage(1);
-            Debug.Log(health);
+        if (collision.gameObject.tag == "Enemy") Damage(1);
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision) {
+        if (collision.gameObject.tag == "Collectable") {
+            health++;
+            collision.gameObject.GetComponent<Collectible>().isAttached = true;
+            aquireItem = true;
+            Invoke("ItemAquired", 3.0f);
+            Destroy(collision.gameObject, 3.0f);
         }
     }
+    
 
     //public void SaveGame() {
     //    LoadSaveManager.GameStateData.DataPlayer PlayerData = GameManager.StateManager.GameState.Player;

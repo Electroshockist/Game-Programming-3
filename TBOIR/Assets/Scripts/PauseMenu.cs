@@ -37,7 +37,6 @@ public class PauseMenu : MonoBehaviour {
 
     // Update is called once per frame
     void Update() {
-        Debug.Log(Time.timeScale);
         //set music volume
         MusicScript.music.volume = (float)musicVol / 10;
         if (GameManager.dead) {

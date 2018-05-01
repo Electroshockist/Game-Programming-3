@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Wall
   - Enemy
+  - Door
+  - Collectable
   layers:
   - Default
   - TransparentFX
@@ -49,11 +51,23 @@ TagManager:
   - name: Ground Overlay
     uniqueID: 2347398971
     locked: 0
+  - name: Door
+    uniqueID: 2031146731
+    locked: 0
   - name: Body
     uniqueID: 719549021
     locked: 0
+  - name: Pedestal
+    uniqueID: 2435752887
+    locked: 0
   - name: Head
     uniqueID: 4063822613
+    locked: 0
+  - name: Item
+    uniqueID: 1320453557
+    locked: 0
+  - name: Overlay
+    uniqueID: 2676921191
     locked: 0
   - name: Default
     uniqueID: 0
